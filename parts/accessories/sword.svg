@@ -2,7 +2,7 @@
   <!-- Cartoon Sword - Right side, held up heroically, Nick Jr. cartoony style -->
 
   <!-- Sword group, slightly angled -->
-  <g transform="rotate(-15, 320, 220)">
+  <g transform="rotate(15, 320, 220)">
 
     <!-- Blade (silver, rounded tip) -->
     <path d="M312,120 L328,120 Q330,120 330,122 L326,228 L314,228 L310,122 Q310,120 312,120 Z"
