@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Knight Cape (tail) - Cartoon Style -->
+
+  <!-- Cape shadow/depth layer -->
+  <path d="M290,208 C295,215 340,225 365,240 C380,250 385,260 378,275 C370,285 345,280 330,278 C315,276 300,272 295,268" fill="#CC0000" stroke="#333" stroke-width="3"/>
+
+  <!-- Main flowing cape -->
+  <path d="M285,200 C290,205 310,210 335,218 C355,225 375,235 372,255 C370,270 350,275 330,272 C310,270 295,265 290,260 Z" fill="#FF3333" stroke="#333" stroke-width="3.5"/>
+
+  <!-- Cape fold lines for depth -->
+  <path d="M295,215 C310,222 335,230 350,240" fill="none" stroke="#CC0000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M292,235 C308,240 325,248 345,255" fill="none" stroke="#CC0000" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M290,250 C305,254 320,260 335,265" fill="none" stroke="#CC0000" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cape highlight -->
+  <path d="M300,212 C312,218 328,224 340,230" fill="none" stroke="#FF6666" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Cape bottom wave edge -->
+  <path d="M290,260 C298,265 308,272 320,273 C332,274 345,275 355,272 C362,270 370,268 372,255" fill="none" stroke="#CC0000" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Gold clasp at attachment point -->
+  <circle cx="287" cy="205" r="12" fill="#FFD700" stroke="#333" stroke-width="3"/>
+  <circle cx="287" cy="205" r="7" fill="#FFEC80" stroke="#333" stroke-width="2"/>
+  <!-- Clasp gem -->
+  <circle cx="287" cy="205" r="4" fill="#FF3333" stroke="#CC0000" stroke-width="1.5"/>
+  <!-- Clasp shine -->
+  <circle cx="284" cy="202" r="1.5" fill="white" opacity="0.7"/>
+</svg>

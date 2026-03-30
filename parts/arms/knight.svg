@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Knight Armored Arms - Cartoon Style -->
+
+  <!-- === LEFT ARM (slightly lowered) === -->
+  <!-- Upper arm plate -->
+  <path d="M70,180 C65,175 60,170 75,170 L115,170 C125,170 128,175 125,180 L122,240 C122,245 118,248 110,248 L80,248 C72,248 68,245 68,240 Z" fill="#B0B0B0" stroke="#333" stroke-width="3.5"/>
+  <!-- Upper arm highlight -->
+  <path d="M85,178 L85,235" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+  <!-- Upper arm rivet -->
+  <circle cx="97" cy="190" r="3.5" fill="#808080" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Gold elbow guard - left -->
+  <ellipse cx="95" cy="252" rx="22" ry="14" fill="#FFD700" stroke="#333" stroke-width="3"/>
+  <ellipse cx="95" cy="252" rx="12" ry="7" fill="#FFEC80" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Lower arm plate - left -->
+  <path d="M73,262 L117,262 L115,305 L75,305 Z" fill="#B0B0B0" stroke="#333" stroke-width="3.5"/>
+  <!-- Lower arm rivet -->
+  <circle cx="95" cy="280" r="3" fill="#808080" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Gauntlet/glove - left -->
+  <path d="M70,302 L120,302 L122,315 C122,318 120,322 118,325 L112,330 L108,335 L100,332 L92,338 L82,332 L76,325 C73,322 71,318 70,315 Z" fill="#B0B0B0" stroke="#333" stroke-width="3"/>
+  <!-- Gauntlet gold trim -->
+  <path d="M72,305 L118,305" stroke="#FFD700" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Finger lines -->
+  <line x1="88" y1="315" x2="86" y2="330" stroke="#808080" stroke-width="2"/>
+  <line x1="97" y1="315" x2="97" y2="332" stroke="#808080" stroke-width="2"/>
+  <line x1="106" y1="315" x2="108" y2="330" stroke="#808080" stroke-width="2"/>
+
+
+  <!-- === RIGHT ARM (slightly raised) === -->
+  <!-- Upper arm plate -->
+  <path d="M275,172 C272,167 275,163 285,163 L320,163 C330,163 335,167 332,172 L328,232 C328,237 324,240 316,240 L288,240 C280,240 276,237 276,232 Z" fill="#B0B0B0" stroke="#333" stroke-width="3.5"/>
+  <!-- Upper arm highlight -->
+  <path d="M295,170 L295,228" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+  <!-- Upper arm rivet -->
+  <circle cx="305" cy="183" r="3.5" fill="#808080" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Gold elbow guard - right -->
+  <ellipse cx="305" cy="244" rx="22" ry="14" fill="#FFD700" stroke="#333" stroke-width="3"/>
+  <ellipse cx="305" cy="244" rx="12" ry="7" fill="#FFEC80" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Lower arm plate - right -->
+  <path d="M283,254 L327,254 L325,297 L285,297 Z" fill="#B0B0B0" stroke="#333" stroke-width="3.5"/>
+  <!-- Lower arm rivet -->
+  <circle cx="305" cy="272" r="3" fill="#808080" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Gauntlet/glove - right -->
+  <path d="M280,294 L330,294 L332,307 C332,310 330,314 328,317 L322,322 L318,327 L310,324 L302,330 L292,324 L286,317 C283,314 281,310 280,307 Z" fill="#B0B0B0" stroke="#333" stroke-width="3"/>
+  <!-- Gauntlet gold trim -->
+  <path d="M282,297 L328,297" stroke="#FFD700" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Finger lines -->
+  <line x1="298" y1="307" x2="296" y2="322" stroke="#808080" stroke-width="2"/>
+  <line x1="307" y1="307" x2="307" y2="324" stroke="#808080" stroke-width="2"/>
+  <line x1="316" y1="307" x2="318" y2="322" stroke="#808080" stroke-width="2"/>
+</svg>

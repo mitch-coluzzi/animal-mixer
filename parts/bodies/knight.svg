@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Knight Armor Body - Cartoon Style -->
+
+  <!-- Chainmail peek at waist -->
+  <ellipse cx="200" cy="360" rx="95" ry="30" fill="#666666" stroke="#333" stroke-width="3"/>
+  <!-- Chainmail pattern dots -->
+  <circle cx="170" cy="352" r="3" fill="#555"/>
+  <circle cx="185" cy="356" r="3" fill="#555"/>
+  <circle cx="200" cy="352" r="3" fill="#555"/>
+  <circle cx="215" cy="356" r="3" fill="#555"/>
+  <circle cx="230" cy="352" r="3" fill="#555"/>
+  <circle cx="177" cy="362" r="3" fill="#555"/>
+  <circle cx="192" cy="366" r="3" fill="#555"/>
+  <circle cx="207" cy="362" r="3" fill="#555"/>
+  <circle cx="222" cy="366" r="3" fill="#555"/>
+
+  <!-- Main breastplate -->
+  <path d="M110,170 C108,165 115,150 200,150 C285,150 292,165 290,170 L300,340 C300,365 280,380 200,380 C120,380 100,365 100,340 Z" fill="#B0B0B0" stroke="#333" stroke-width="3.5"/>
+
+  <!-- Breastplate center ridge -->
+  <line x1="200" y1="160" x2="200" y2="340" stroke="#808080" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Gold trim - neckline -->
+  <path d="M130,165 C130,155 165,150 200,150 C235,150 270,155 270,165" fill="none" stroke="#FFD700" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Gold trim - bottom edge -->
+  <path d="M108,340 C108,368 140,380 200,380 C260,380 292,368 292,340" fill="none" stroke="#FFD700" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Gold horizontal bands -->
+  <path d="M118,220 L282,220" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+  <path d="M112,290 L288,290" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Chest emblem - gold/red shield shape -->
+  <path d="M175,195 L200,185 L225,195 L225,240 L200,255 L175,240 Z" fill="#FF3333" stroke="#FFD700" stroke-width="3.5"/>
+
+  <!-- Lion face on shield -->
+  <!-- Lion mane circle -->
+  <circle cx="200" cy="218" r="22" fill="#FFD700" stroke="#333" stroke-width="2"/>
+  <!-- Lion face -->
+  <circle cx="200" cy="220" r="15" fill="#FF3333" stroke="#333" stroke-width="2"/>
+  <!-- Lion eyes -->
+  <ellipse cx="193" cy="215" rx="3.5" ry="4" fill="#333"/>
+  <ellipse cx="207" cy="215" rx="3.5" ry="4" fill="#333"/>
+  <!-- Eye shine -->
+  <circle cx="194.5" cy="213.5" r="1.2" fill="white"/>
+  <circle cx="208.5" cy="213.5" r="1.2" fill="white"/>
+  <!-- Lion nose -->
+  <ellipse cx="200" cy="223" rx="3" ry="2.5" fill="#CC0000"/>
+  <!-- Lion mouth -->
+  <path d="M196,226 Q200,231 204,226" fill="none" stroke="#333" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Mane tufts -->
+  <circle cx="180" cy="212" r="5" fill="#FFD700" stroke="#333" stroke-width="1.5"/>
+  <circle cx="183" cy="200" r="5" fill="#FFD700" stroke="#333" stroke-width="1.5"/>
+  <circle cx="192" cy="194" r="5" fill="#FFD700" stroke="#333" stroke-width="1.5"/>
+  <circle cx="208" cy="194" r="5" fill="#FFD700" stroke="#333" stroke-width="1.5"/>
+  <circle cx="217" cy="200" r="5" fill="#FFD700" stroke="#333" stroke-width="1.5"/>
+  <circle cx="220" cy="212" r="5" fill="#FFD700" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Armor highlight/shine -->
+  <path d="M145,170 C150,180 148,200 145,210" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M255,170 C250,180 252,200 255,210" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Rivet details -->
+  <circle cx="125" cy="200" r="4" fill="#808080" stroke="#333" stroke-width="1.5"/>
+  <circle cx="275" cy="200" r="4" fill="#808080" stroke="#333" stroke-width="1.5"/>
+  <circle cx="120" cy="260" r="4" fill="#808080" stroke="#333" stroke-width="1.5"/>
+  <circle cx="280" cy="260" r="4" fill="#808080" stroke="#333" stroke-width="1.5"/>
+  <circle cx="115" cy="320" r="4" fill="#808080" stroke="#333" stroke-width="1.5"/>
+  <circle cx="285" cy="320" r="4" fill="#808080" stroke="#333" stroke-width="1.5"/>
+</svg>
