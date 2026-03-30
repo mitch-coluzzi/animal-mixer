@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm (black, round paw) -->
+  <g>
+    <path d="M108 178 Q90 215 84 255 Q78 290 84 315 Q88 328 100 326 Q112 320 110 300 Q108 268 112 238 Q116 208 114 183 Z" fill="#333" stroke="#222" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Round paw -->
+    <ellipse cx="92" cy="326" rx="15" ry="11" fill="#444" stroke="#222" stroke-width="3"/>
+    <!-- Paw pads (pink) -->
+    <ellipse cx="92" cy="328" rx="7" ry="4" fill="#FFB0B0" stroke="#333" stroke-width="2"/>
+    <circle cx="85" cy="323" r="3.5" fill="#FFB0B0" stroke="#333" stroke-width="1.5"/>
+    <circle cx="92" cy="321" r="3.5" fill="#FFB0B0" stroke="#333" stroke-width="1.5"/>
+    <circle cx="99" cy="323" r="3.5" fill="#FFB0B0" stroke="#333" stroke-width="1.5"/>
+  </g>
+  <!-- Right Arm (black, round paw) -->
+  <g>
+    <path d="M292 178 Q310 215 316 255 Q322 290 316 315 Q312 328 300 326 Q288 320 290 300 Q292 268 288 238 Q284 208 286 183 Z" fill="#333" stroke="#222" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Round paw -->
+    <ellipse cx="308" cy="326" rx="15" ry="11" fill="#444" stroke="#222" stroke-width="3"/>
+    <!-- Paw pads (pink) -->
+    <ellipse cx="308" cy="328" rx="7" ry="4" fill="#FFB0B0" stroke="#333" stroke-width="2"/>
+    <circle cx="301" cy="323" r="3.5" fill="#FFB0B0" stroke="#333" stroke-width="1.5"/>
+    <circle cx="308" cy="321" r="3.5" fill="#FFB0B0" stroke="#333" stroke-width="1.5"/>
+    <circle cx="315" cy="323" r="3.5" fill="#FFB0B0" stroke="#333" stroke-width="1.5"/>
+  </g>
+</svg>

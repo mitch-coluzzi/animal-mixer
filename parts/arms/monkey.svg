@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm (long, lanky) -->
+  <g>
+    <path d="M115 178 Q90 210 80 250 Q70 290 72 320 Q74 335 82 335 Q92 333 95 315 Q98 285 100 255 Q105 220 118 190 Z" fill="#C8824A" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Hand -->
+    <ellipse cx="82" cy="335" rx="12" ry="8" fill="#E0A868" stroke="#333" stroke-width="3"/>
+    <!-- Fingers -->
+    <path d="M73 330 Q68 325 70 320" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M76 328 Q72 322 74 317" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M88 328 Q92 322 90 317" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M91 330 Q96 325 94 320" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Thumb -->
+    <ellipse cx="72" cy="338" rx="5" ry="4" fill="#E0A868" stroke="#333" stroke-width="2"/>
+  </g>
+  <!-- Right Arm (long, lanky) -->
+  <g>
+    <path d="M285 178 Q310 210 320 250 Q330 290 328 320 Q326 335 318 335 Q308 333 305 315 Q302 285 300 255 Q295 220 282 190 Z" fill="#C8824A" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Hand -->
+    <ellipse cx="318" cy="335" rx="12" ry="8" fill="#E0A868" stroke="#333" stroke-width="3"/>
+    <!-- Fingers -->
+    <path d="M327 330 Q332 325 330 320" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M324 328 Q328 322 326 317" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M312 328 Q308 322 310 317" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M309 330 Q304 325 306 320" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Thumb -->
+    <ellipse cx="328" cy="338" rx="5" ry="4" fill="#E0A868" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>

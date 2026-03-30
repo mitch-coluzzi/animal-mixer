@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Flamingo Head - cute and cartoony for Maggie! -->
+
+  <!-- Feathery tuft on top -->
+  <path d="M192,44 C188,28 194,14 200,8 C203,14 205,24 200,34" fill="none" stroke="#FF1493" stroke-width="4" stroke-linecap="round"/>
+  <path d="M200,42 C200,24 210,10 218,6 C217,14 214,26 208,36" fill="none" stroke="#FF1493" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184,48 C176,32 180,16 186,10 C189,18 190,30 186,42" fill="none" stroke="#FF1493" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Tuft feather tips -->
+  <circle cx="200" cy="7" r="4" fill="#FF69B4" stroke="#222" stroke-width="2"/>
+  <circle cx="218" cy="5" r="3.5" fill="#FF69B4" stroke="#222" stroke-width="2"/>
+  <circle cx="186" cy="9" r="3" fill="#FF69B4" stroke="#222" stroke-width="2"/>
+
+  <!-- Head shape - cute round flamingo head -->
+  <path d="M120,128 C118,86 146,40 200,38 C254,40 282,86 280,128 C282,170 268,198 252,210 C236,220 220,224 200,225 C180,224 164,220 148,210 C132,198 118,170 120,128Z" fill="#FF69B4" stroke="#222" stroke-width="3.5"/>
+
+  <!-- Lighter cheek/face area -->
+  <ellipse cx="200" cy="140" rx="48" ry="40" fill="#FFB6C1" opacity="0.5"/>
+
+  <!-- Eyes - big cute sparkly eyes -->
+  <ellipse cx="168" cy="115" rx="22" ry="24" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="168" cy="119" rx="14" ry="15" fill="#1A1A2E"/>
+  <ellipse cx="163" cy="111" rx="6" ry="7" fill="#FFFFFF"/>
+  <circle cx="173" cy="123" r="3" fill="#FFFFFF"/>
+  <ellipse cx="232" cy="115" rx="22" ry="24" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="232" cy="119" rx="14" ry="15" fill="#1A1A2E"/>
+  <ellipse cx="227" cy="111" rx="6" ry="7" fill="#FFFFFF"/>
+  <circle cx="237" cy="123" r="3" fill="#FFFFFF"/>
+
+  <!-- Cute eyelashes -->
+  <path d="M150,97 C152,91 156,88 158,86" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M146,103 C146,97 148,93 150,90" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M250,97 C248,91 244,88 242,86" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M254,103 C254,97 252,93 250,90" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Rosy cheeks -->
+  <circle cx="145" cy="152" r="14" fill="#FF1493" opacity="0.35"/>
+  <circle cx="255" cy="152" r="14" fill="#FF1493" opacity="0.35"/>
+
+  <!-- Beak - long curved downward flamingo beak -->
+  <!-- Beak base (orange part) -->
+  <path d="M178,148 C175,138 180,130 200,128 C220,130 225,138 222,148 L230,152 C238,160 242,170 238,178 C234,184 226,186 218,182 L200,172 L182,182 C174,186 166,184 162,178 C158,170 162,160 170,152Z" fill="#FF8C00" stroke="#222" stroke-width="3.5"/>
+  <!-- Beak tip (dark/black curved part) -->
+  <path d="M170,152 C162,160 158,170 162,178 C166,184 174,186 182,182 C176,178 170,170 170,160Z" fill="#333" stroke="none"/>
+  <path d="M230,152 C238,160 242,170 238,178 C234,184 226,186 218,182 C224,178 230,170 230,160Z" fill="#333" stroke="none"/>
+  <!-- Lower beak curve -->
+  <path d="M172,162 C180,172 190,176 200,176 C210,176 220,172 228,162" fill="none" stroke="#E07000" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Beak dividing line -->
+  <path d="M175,155 C185,160 195,162 200,162 C205,162 215,160 225,155" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Nostrils -->
+  <ellipse cx="190" cy="145" rx="3" ry="2.5" fill="#E07000"/>
+  <ellipse cx="210" cy="145" rx="3" ry="2.5" fill="#E07000"/>
+
+  <!-- Happy smile below beak -->
+  <path d="M190,190 C195,196 200,198 200,198 C200,198 205,196 210,190" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

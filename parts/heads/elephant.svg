@@ -1,41 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Elephant Head - compact, upper canvas only -->
-  <!-- Floppy ears -->
-  <path d="M95,105 C75,80 65,110 70,145 C75,175 92,190 108,185 C115,182 118,168 115,148 C112,125 105,110 95,105Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
-  <path d="M100,115 C88,100 82,122 86,148 C90,168 100,178 108,174 C110,165 108,148 106,135 C104,122 102,112 100,115Z" fill="#E8C8A0" stroke="none"/>
-  <path d="M305,105 C325,80 335,110 330,145 C325,175 308,190 292,185 C285,182 282,168 285,148 C288,125 295,110 305,105Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
-  <path d="M300,115 C312,100 318,122 314,148 C310,168 300,178 292,174 C290,165 292,148 294,135 C296,122 298,112 300,115Z" fill="#E8C8A0" stroke="none"/>
+  <!-- Elephant Head - Nick Jr. cartoony style, Dumbo ears -->
 
-  <!-- Head shape -->
-  <path d="M128,130 C126,92 155,55 200,52 C245,55 274,92 272,130 C274,175 270,200 258,215 C245,228 225,234 200,235 C175,234 155,228 142,215 C130,200 126,175 128,130Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
+  <!-- LEFT EAR (behind head) - huge floppy Dumbo style -->
+  <path d="M170,100 C140,70 80,60 55,90 C30,120 25,170 40,210 C55,250 90,260 120,240 C140,225 155,195 160,165"
+    fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left inner ear -->
+  <path d="M160,110 C138,85 95,78 72,100 C50,125 48,165 58,198 C68,228 95,238 115,224 C132,212 148,188 155,160"
+    fill="#E8C8A0" stroke="none"/>
 
-  <!-- Eyes -->
-  <ellipse cx="168" cy="115" rx="17" ry="19" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
-  <ellipse cx="168" cy="118" rx="10" ry="11" fill="#3A2820"/>
-  <ellipse cx="164" cy="112" rx="4" ry="5" fill="#FFFFFF"/>
-  <ellipse cx="232" cy="115" rx="17" ry="19" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
-  <ellipse cx="232" cy="118" rx="10" ry="11" fill="#3A2820"/>
-  <ellipse cx="228" cy="112" rx="4" ry="5" fill="#FFFFFF"/>
+  <!-- RIGHT EAR (behind head) - huge floppy Dumbo style -->
+  <path d="M230,100 C260,70 320,60 345,90 C370,120 375,170 360,210 C345,250 310,260 280,240 C260,225 245,195 240,165"
+    fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right inner ear -->
+  <path d="M240,110 C262,85 305,78 328,100 C350,125 352,165 342,198 C332,228 305,238 285,224 C268,212 252,188 245,160"
+    fill="#E8C8A0" stroke="none"/>
 
-  <!-- Eyebrows -->
-  <path d="M152,98 C158,92 172,90 180,94" fill="none" stroke="#A88A5A" stroke-width="3" stroke-linecap="round"/>
-  <path d="M220,94 C228,90 242,92 248,98" fill="none" stroke="#A88A5A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Head shape - round, cute, centered at x=200, y=30 to y=220 -->
+  <ellipse cx="200" cy="130" rx="80" ry="90" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
 
-  <!-- Trunk - stays within head zone, ending by y=248 -->
-  <path d="M190,165 C188,175 186,190 188,205 C190,218 193,230 198,240 C202,248 208,248 212,240 C216,230 218,218 218,205 C220,190 218,175 216,165" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
-  <path d="M194,168 C193,178 192,192 193,208 C194,222 197,234 200,240 C203,234 208,220 209,208 C210,192 209,178 208,168" fill="#E8C8A0" stroke="none"/>
+  <!-- Eyes - big and cute -->
+  <ellipse cx="170" cy="115" rx="18" ry="21" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="170" cy="119" rx="11" ry="12" fill="#3A2820"/>
+  <ellipse cx="165" cy="112" rx="4.5" ry="5.5" fill="#FFFFFF"/>
+  <ellipse cx="230" cy="115" rx="18" ry="21" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="230" cy="119" rx="11" ry="12" fill="#3A2820"/>
+  <ellipse cx="225" cy="112" rx="4.5" ry="5.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows - friendly arches -->
+  <path d="M153,96 C160,89 175,87 183,92" fill="none" stroke="#A88A5A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M217,92 C225,87 240,89 247,96" fill="none" stroke="#A88A5A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Trunk - short, ending by y=210 -->
+  <path d="M191,158 C189,168 187,180 189,194 C191,204 196,210 200,210 C204,210 209,204 211,194 C213,180 211,168 209,158"
+    fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Trunk inner highlight -->
+  <path d="M195,160 C194,170 193,182 194,196 C196,206 199,209 200,209 C201,209 204,206 206,196 C207,182 206,170 205,160"
+    fill="#E8C8A0" stroke="none"/>
   <!-- Trunk tip curl -->
-  <path d="M212,240 C218,244 222,240 220,234" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M211,194 C216,198 219,194 217,189" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Smile on sides of trunk -->
-  <path d="M162,170 C168,180 178,184 188,180" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M238,170 C232,180 222,184 212,180" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Smile - friendly, on each side of the trunk -->
+  <path d="M160,165 C168,176 180,180 190,175" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M240,165 C232,176 220,180 210,175" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Cheek blush -->
-  <ellipse cx="145" cy="148" rx="12" ry="8" fill="#E8B8A0" opacity="0.5"/>
-  <ellipse cx="255" cy="148" rx="12" ry="8" fill="#E8B8A0" opacity="0.5"/>
-
-  <!-- Forehead wrinkle -->
-  <path d="M185,78 C192,74 200,73 208,74 C215,76 218,78 220,80" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="148" cy="148" rx="14" ry="9" fill="#E8A090" opacity="0.45"/>
+  <ellipse cx="252" cy="148" rx="14" ry="9" fill="#E8A090" opacity="0.45"/>
 
 </svg>

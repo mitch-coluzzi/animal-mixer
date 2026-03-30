@@ -444,9 +444,10 @@
       <div class="canvas-wrapper" id="canvas">
         <div class="layer" id="layer-bg"></div>
         <div class="layer" id="layer-wings"></div>
-        <div class="layer" id="layer-body"></div>
-        <div class="layer" id="layer-legs"></div>
         <div class="layer" id="layer-tail"></div>
+        <div class="layer" id="layer-body"></div>
+        <div class="layer" id="layer-arms"></div>
+        <div class="layer" id="layer-legs"></div>
         <div class="layer" id="layer-head"></div>
         <div class="layer" id="layer-spikes"></div>
         <div class="layer" id="layer-accessories"></div>
@@ -520,12 +521,13 @@
     }
 
     const PARTS = {
-      heads:       ['tiger','elephant','monkey','frog','lion','deer','duck','dragon'],
-      bodies:      ['tiger','elephant','bear','giraffe','panda','duck','dragon'],
+      heads:       ['tiger','elephant','monkey','frog','lion','deer','duck','dragon','knight','flamingo'],
+      bodies:      ['tiger','elephant','bear','giraffe','panda','duck','dragon','flamingo'],
       legs:        ['tiger','elephant','flamingo','frog','lion','duck','dragon'],
-      tails:       ['tiger','peacock','lion','fish','snake','horse','duck','dragon'],
+      tails:       ['tiger','peacock','lion','fish','snake','horse','duck','dragon','flamingo'],
+      arms:        ['tiger','elephant','monkey','frog','lion','deer','duck','dragon','bear','giraffe','panda','flamingo'],
       accessories: ['party_hat','crown','bow_tie','glasses','bow','top_hat',
-                    'elephant_trunk','frog_tongue','unicorn_horn','dragon_spikes','wings']
+                    'elephant_trunk','frog_tongue','unicorn_horn','dragon_spikes','wings','shield','sword']
     };
 
     const BACKGROUNDS = [
@@ -537,17 +539,18 @@
       { name: 'candy',  color: '#FF8FAB' },
     ];
 
-    const BASE_ANIMALS = ['tiger','elephant','bear','giraffe','panda','duck','dragon'];
+    const BASE_ANIMALS = ['tiger','elephant','bear','giraffe','panda','duck','dragon','flamingo'];
 
     // Map base animal to best-matching parts from available SVGs
     const BASE_PRESETS = {
-      tiger:    { head:'tiger',    body:'tiger',    legs:'tiger',    tail:'tiger' },
-      elephant: { head:'elephant', body:'elephant', legs:'elephant', tail:'fish' },
-      bear:     { head:'monkey',   body:'bear',     legs:'lion',     tail:'horse' },
-      giraffe:  { head:'deer',     body:'giraffe',  legs:'flamingo', tail:'horse' },
-      panda:    { head:'frog',     body:'panda',    legs:'duck',     tail:'snake' },
-      duck:     { head:'duck',     body:'duck',     legs:'duck',     tail:'duck' },
-      dragon:   { head:'dragon',   body:'dragon',   legs:'dragon',   tail:'dragon' },
+      tiger:    { head:'tiger',    body:'tiger',    legs:'tiger',    tail:'tiger',    arms:'tiger' },
+      elephant: { head:'elephant', body:'elephant', legs:'elephant', tail:'fish',     arms:'elephant' },
+      bear:     { head:'monkey',   body:'bear',     legs:'lion',     tail:'horse',    arms:'bear' },
+      giraffe:  { head:'deer',     body:'giraffe',  legs:'flamingo', tail:'horse',    arms:'giraffe' },
+      panda:    { head:'frog',     body:'panda',    legs:'duck',     tail:'snake',    arms:'panda' },
+      duck:     { head:'duck',     body:'duck',     legs:'duck',     tail:'duck',     arms:'duck' },
+      dragon:   { head:'dragon',   body:'dragon',   legs:'dragon',   tail:'dragon',   arms:'dragon' },
+      flamingo: { head:'flamingo', body:'flamingo', legs:'flamingo', tail:'flamingo', arms:'flamingo' },
     };
 
     // Current mix state
@@ -555,6 +558,7 @@
       base: null,
       head: null,
       body: null,
+      arms: null,
       legs: null,
       tail: null,
       accessories: [],
@@ -577,7 +581,7 @@
     function getComboName() {
       if (!state.head) return 'Pick an animal!';
       const counts = {};
-      ['head','body','legs','tail'].forEach(p => {
+      ['head','body','arms','legs','tail'].forEach(p => {
         if (state[p]) counts[state[p]] = (counts[state[p]] || 0) + 1;
       });
       const animals = Object.keys(counts);
@@ -623,6 +627,7 @@
       const partLayers = {
         head: 'layer-head',
         body: 'layer-body',
+        arms: 'layer-arms',
         legs: 'layer-legs',
         tail: 'layer-tail'
       };
@@ -630,7 +635,8 @@
         const el = document.getElementById(layerId);
         el.innerHTML = '';
         if (state[part]) {
-          el.innerHTML = `<img src="${partPath(part === 'head' ? 'heads' : part === 'body' ? 'bodies' : part === 'legs' ? 'legs' : 'tails', state[part])}" alt="" onerror="this.style.display='none'">`;
+          const folderMap = { head: 'heads', body: 'bodies', arms: 'arms', legs: 'legs', tail: 'tails' };
+          el.innerHTML = `<img src="${partPath(folderMap[part], state[part])}" alt="" onerror="this.style.display='none'">`;
         }
       }
 
@@ -662,6 +668,7 @@
       const categories = [
         { key: 'heads',       label: 'Head',        stateKey: 'head' },
         { key: 'bodies',      label: 'Body',        stateKey: 'body' },
+        { key: 'arms',        label: 'Arms',        stateKey: 'arms' },
         { key: 'legs',        label: 'Legs',        stateKey: 'legs' },
         { key: 'tails',       label: 'Tail',        stateKey: 'tail' },
         { key: 'accessories', label: 'Accessories', stateKey: 'accessories' },
@@ -751,6 +758,7 @@
       state.base = animal;
       state.head = preset.head;
       state.body = preset.body;
+      state.arms = preset.arms;
       state.legs = preset.legs;
       state.tail = preset.tail;
       state.accessories = [];
@@ -763,7 +771,7 @@
         if (t.dataset.category === 'accessories') {
           t.classList.remove('selected');
         } else {
-          const catMap = { heads: 'head', bodies: 'body', legs: 'legs', tails: 'tail' };
+          const catMap = { heads: 'head', bodies: 'body', arms: 'arms', legs: 'legs', tails: 'tail' };
           const stateKey = catMap[t.dataset.category];
           t.classList.toggle('selected', t.dataset.name === state[stateKey]);
         }
@@ -795,6 +803,7 @@
       state.base = null;
       state.head = null;
       state.body = null;
+      state.arms = null;
       state.legs = null;
       state.tail = null;
       state.accessories = [];
@@ -814,6 +823,7 @@
       const pick = arr => arr[Math.floor(Math.random() * arr.length)];
       state.head = pick(PARTS.heads);
       state.body = pick(PARTS.bodies);
+      state.arms = pick(PARTS.arms);
       state.legs = pick(PARTS.legs);
       state.tail = pick(PARTS.tails);
       state.base = null;
@@ -831,7 +841,7 @@
         if (t.dataset.category === 'accessories') {
           t.classList.toggle('selected', state.accessories.includes(t.dataset.name));
         } else {
-          const catMap = { heads: 'head', bodies: 'body', legs: 'legs', tails: 'tail' };
+          const catMap = { heads: 'head', bodies: 'body', arms: 'arms', legs: 'legs', tails: 'tail' };
           t.classList.toggle('selected', state[catMap[t.dataset.category]] === t.dataset.name);
         }
       });

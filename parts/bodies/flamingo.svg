@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Flamingo Body - elegant but cute -->
+
+  <!-- Main body - slightly oval/elegant shape -->
+  <ellipse cx="200" cy="270" rx="100" ry="110" fill="#FF69B4" stroke="#222" stroke-width="3.5"/>
+
+  <!-- Belly patch - lighter pink oval -->
+  <ellipse cx="200" cy="284" rx="65" ry="78" fill="#FFB6C1" stroke="none"/>
+
+  <!-- Left wing - folded against body -->
+  <path d="M105,220 C88,230 80,255 82,275 C84,295 94,310 108,312 C116,310 118,300 114,285 C112,265 108,245 110,230Z" fill="#FF69B4" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left wing feather detail lines -->
+  <path d="M92,250 C90,264 91,278 96,290" fill="none" stroke="#FF1493" stroke-width="3" stroke-linecap="round"/>
+  <path d="M100,244 C98,258 99,272 104,282" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left wing feather scallops -->
+  <path d="M86,268 C82,272 82,280 88,282" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M88,282 C84,286 84,294 90,296" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right wing - folded against body -->
+  <path d="M295,220 C312,230 320,255 318,275 C316,295 306,310 292,312 C284,310 282,300 286,285 C288,265 292,245 290,230Z" fill="#FF69B4" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right wing feather detail lines -->
+  <path d="M308,250 C310,264 309,278 304,290" fill="none" stroke="#FF1493" stroke-width="3" stroke-linecap="round"/>
+  <path d="M300,244 C302,258 301,272 296,282" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right wing feather scallops -->
+  <path d="M314,268 C318,272 318,280 312,282" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M312,282 C316,286 316,294 310,296" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Belly highlight line -->
+  <path d="M152,226 C165,216 182,212 200,210 C218,212 235,216 248,226" fill="none" stroke="#FFD1DC" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Feathery texture along bottom edges -->
+  <path d="M130,350 C138,356 148,358 158,354" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M155,358 C164,364 174,366 184,362" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M216,362 C226,366 236,364 245,358" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M242,354 C252,358 262,356 270,350" fill="none" stroke="#FF1493" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Belly button -->
+  <circle cx="200" cy="310" r="3.5" fill="#FF1493" stroke="#E0127D" stroke-width="2"/>
+
+  <!-- Re-draw main body outline on top for clean edges -->
+  <ellipse cx="200" cy="270" rx="100" ry="110" fill="none" stroke="#222" stroke-width="3.5"/>
+</svg>

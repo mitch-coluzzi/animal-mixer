@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm -->
+  <g>
+    <path d="M110 180 Q95 220 90 260 Q85 290 95 310 Q100 320 110 318 Q120 315 118 300 Q115 270 120 240 Q125 210 120 185 Z" fill="#E8823A" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Stripes -->
+    <path d="M100 210 Q108 205 115 210" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M97 240 Q105 235 112 240" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M95 270 Q103 265 110 270" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <!-- Paw -->
+    <ellipse cx="102" cy="318" rx="14" ry="10" fill="#F5D0A0" stroke="#333" stroke-width="3"/>
+    <circle cx="95" cy="315" r="4" fill="#F5D0A0" stroke="#333" stroke-width="2"/>
+    <circle cx="102" cy="312" r="4" fill="#F5D0A0" stroke="#333" stroke-width="2"/>
+    <circle cx="109" cy="315" r="4" fill="#F5D0A0" stroke="#333" stroke-width="2"/>
+  </g>
+  <!-- Right Arm -->
+  <g>
+    <path d="M290 180 Q305 220 310 260 Q315 290 305 310 Q300 320 290 318 Q280 315 282 300 Q285 270 280 240 Q275 210 280 185 Z" fill="#E8823A" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Stripes -->
+    <path d="M300 210 Q292 205 285 210" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M303 240 Q295 235 288 240" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M305 270 Q297 265 290 270" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <!-- Paw -->
+    <ellipse cx="298" cy="318" rx="14" ry="10" fill="#F5D0A0" stroke="#333" stroke-width="3"/>
+    <circle cx="291" cy="315" r="4" fill="#F5D0A0" stroke="#333" stroke-width="2"/>
+    <circle cx="298" cy="312" r="4" fill="#F5D0A0" stroke="#333" stroke-width="2"/>
+    <circle cx="305" cy="315" r="4" fill="#F5D0A0" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>

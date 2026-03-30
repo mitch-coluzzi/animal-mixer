@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Wing-Arm (rubber ducky style, small and cute) -->
+  <g>
+    <path d="M115 190 Q95 210 85 240 Q78 260 82 275 Q86 288 98 284 Q108 278 105 260 Q102 240 108 220 Q114 200 118 192 Z" fill="#FFD700" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Wing feather lines -->
+    <path d="M98 230 Q92 235 88 245" fill="none" stroke="#E8C000" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M102 240 Q96 248 92 258" fill="none" stroke="#E8C000" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Wing tip -->
+    <path d="M85 270 Q78 278 82 284 Q88 280 85 270" fill="#F0C800" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Right Wing-Arm -->
+  <g>
+    <path d="M285 190 Q305 210 315 240 Q322 260 318 275 Q314 288 302 284 Q292 278 295 260 Q298 240 292 220 Q286 200 282 192 Z" fill="#FFD700" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Wing feather lines -->
+    <path d="M302 230 Q308 235 312 245" fill="none" stroke="#E8C000" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M298 240 Q304 248 308 258" fill="none" stroke="#E8C000" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Wing tip -->
+    <path d="M315 270 Q322 278 318 284 Q312 280 315 270" fill="#F0C800" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

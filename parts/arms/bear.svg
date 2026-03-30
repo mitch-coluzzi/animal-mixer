@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm (chunky with round paw) -->
+  <g>
+    <path d="M108 175 Q88 212 82 252 Q76 290 82 315 Q88 330 102 328 Q116 322 112 300 Q110 268 114 238 Q118 208 115 180 Z" fill="#8B6914" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Round paw -->
+    <ellipse cx="92" cy="328" rx="16" ry="12" fill="#A07818" stroke="#333" stroke-width="3"/>
+    <!-- Paw pads -->
+    <ellipse cx="92" cy="330" rx="8" ry="5" fill="#C8A050" stroke="#333" stroke-width="2"/>
+    <circle cx="84" cy="324" r="4" fill="#C8A050" stroke="#333" stroke-width="2"/>
+    <circle cx="92" cy="322" r="4" fill="#C8A050" stroke="#333" stroke-width="2"/>
+    <circle cx="100" cy="324" r="4" fill="#C8A050" stroke="#333" stroke-width="2"/>
+  </g>
+  <!-- Right Arm (chunky with round paw) -->
+  <g>
+    <path d="M292 175 Q312 212 318 252 Q324 290 318 315 Q312 330 298 328 Q284 322 288 300 Q290 268 286 238 Q282 208 285 180 Z" fill="#8B6914" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Round paw -->
+    <ellipse cx="308" cy="328" rx="16" ry="12" fill="#A07818" stroke="#333" stroke-width="3"/>
+    <!-- Paw pads -->
+    <ellipse cx="308" cy="330" rx="8" ry="5" fill="#C8A050" stroke="#333" stroke-width="2"/>
+    <circle cx="300" cy="324" r="4" fill="#C8A050" stroke="#333" stroke-width="2"/>
+    <circle cx="308" cy="322" r="4" fill="#C8A050" stroke="#333" stroke-width="2"/>
+    <circle cx="316" cy="324" r="4" fill="#C8A050" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>

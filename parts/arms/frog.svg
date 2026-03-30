@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm (thin, webbed hand) -->
+  <g>
+    <path d="M112 180 Q95 215 88 255 Q82 290 86 310 Q88 318 96 316 Q104 312 102 295 Q100 265 105 235 Q110 205 116 188 Z" fill="#5DBB63" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Webbed hand -->
+    <ellipse cx="91" cy="318" rx="14" ry="9" fill="#6DCC73" stroke="#333" stroke-width="3"/>
+    <!-- Webbed fingers -->
+    <path d="M80 314 L74 305 L82 310 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M86 311 L82 300 L90 308 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M95 310 L95 298 L100 308 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M102 312 L108 302 L105 312 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <!-- Right Arm (thin, webbed hand) -->
+  <g>
+    <path d="M288 180 Q305 215 312 255 Q318 290 314 310 Q312 318 304 316 Q296 312 298 295 Q300 265 295 235 Q290 205 284 188 Z" fill="#5DBB63" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Webbed hand -->
+    <ellipse cx="309" cy="318" rx="14" ry="9" fill="#6DCC73" stroke="#333" stroke-width="3"/>
+    <!-- Webbed fingers -->
+    <path d="M320 314 L326 305 L318 310 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M314 311 L318 300 L310 308 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M305 310 L305 298 L300 308 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M298 312 L292 302 L295 312 Z" fill="#6DCC73" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+</svg>

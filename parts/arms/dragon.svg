@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm -->
+  <g>
+    <path d="M110 175 Q92 212 85 252 Q78 290 85 315 Q90 328 102 325 Q114 320 110 300 Q108 270 112 240 Q116 210 116 182 Z" fill="#7B68EE" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Scales detail -->
+    <path d="M98 220 Q104 215 108 220" fill="none" stroke="#6A58DD" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M94 250 Q100 245 104 250" fill="none" stroke="#6A58DD" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M90 280 Q96 275 100 280" fill="none" stroke="#6A58DD" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Claw hand -->
+    <ellipse cx="93" cy="325" rx="14" ry="10" fill="#8B78FF" stroke="#333" stroke-width="3"/>
+    <!-- Gold claws -->
+    <path d="M82 320 L76 312 L84 318" fill="#FFD700" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M88 316 L84 306 L92 314" fill="#FFD700" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M98 315 L98 304 L103 313" fill="#FFD700" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <!-- Right Arm -->
+  <g>
+    <path d="M290 175 Q308 212 315 252 Q322 290 315 315 Q310 328 298 325 Q286 320 290 300 Q292 270 288 240 Q284 210 284 182 Z" fill="#7B68EE" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Scales detail -->
+    <path d="M302 220 Q296 215 292 220" fill="none" stroke="#6A58DD" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M306 250 Q300 245 296 250" fill="none" stroke="#6A58DD" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M310 280 Q304 275 300 280" fill="none" stroke="#6A58DD" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Claw hand -->
+    <ellipse cx="307" cy="325" rx="14" ry="10" fill="#8B78FF" stroke="#333" stroke-width="3"/>
+    <!-- Gold claws -->
+    <path d="M318 320 L324 312 L316 318" fill="#FFD700" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M312 316 L316 306 L308 314" fill="#FFD700" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M302 315 L302 304 L297 313" fill="#FFD700" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+</svg>

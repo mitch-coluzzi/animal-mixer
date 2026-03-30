@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Cartoon Sword - Right side, held up heroically, Nick Jr. cartoony style -->
+
+  <!-- Sword group, slightly angled -->
+  <g transform="rotate(-15, 320, 220)">
+
+    <!-- Blade (silver, rounded tip) -->
+    <path d="M312,120 L328,120 Q330,120 330,122 L326,228 L314,228 L310,122 Q310,120 312,120 Z"
+          fill="#C0C0C0" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+
+    <!-- Blade rounded tip -->
+    <path d="M312,120 Q320,105 328,120" fill="#C0C0C0" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+
+    <!-- Blade center line (fuller) -->
+    <line x1="320" y1="118" x2="320" y2="225" stroke="#A0A0A0" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Blade shine highlight -->
+    <line x1="315" y1="130" x2="316" y2="195" stroke="white" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+
+    <!-- Crossguard (gold) -->
+    <rect x="295" y="228" width="50" height="16" rx="8" fill="#FFD700" stroke="#222" stroke-width="3.5"/>
+
+    <!-- Crossguard end knobs -->
+    <circle cx="298" cy="236" r="6" fill="#FFD700" stroke="#222" stroke-width="2.5"/>
+    <circle cx="342" cy="236" r="6" fill="#FFD700" stroke="#222" stroke-width="2.5"/>
+
+    <!-- Grip (brown leather) -->
+    <rect x="312" y="244" width="16" height="45" rx="5" fill="#8B4513" stroke="#222" stroke-width="3.5"/>
+
+    <!-- Grip leather wrapping lines -->
+    <line x1="313" y1="254" x2="327" y2="251" stroke="#6B3410" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="313" y1="264" x2="327" y2="261" stroke="#6B3410" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="313" y1="274" x2="327" y2="271" stroke="#6B3410" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="313" y1="284" x2="327" y2="281" stroke="#6B3410" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Pommel (gold, bottom) -->
+    <ellipse cx="320" cy="295" rx="12" ry="9" fill="#FFD700" stroke="#222" stroke-width="3.5"/>
+
+    <!-- Pommel gem -->
+    <circle cx="320" cy="295" r="4" fill="#FF3333" stroke="#222" stroke-width="2"/>
+
+  </g>
+</svg>

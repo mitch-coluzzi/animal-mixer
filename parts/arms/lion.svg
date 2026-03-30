@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm -->
+  <g>
+    <path d="M112 178 Q96 215 90 255 Q84 290 90 312 Q94 322 104 320 Q114 316 112 298 Q110 268 113 238 Q116 208 118 185 Z" fill="#E8A830" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Fur tufts at shoulder -->
+    <path d="M115 178 Q108 170 118 168 Q112 164 120 165" fill="none" stroke="#D09020" stroke-width="3" stroke-linecap="round"/>
+    <path d="M110 182 Q102 174 112 172" fill="none" stroke="#D09020" stroke-width="3" stroke-linecap="round"/>
+    <!-- Fur tufts at elbow -->
+    <path d="M88 255 Q82 248 90 248" fill="none" stroke="#D09020" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Paw -->
+    <ellipse cx="97" cy="320" rx="15" ry="10" fill="#F0C060" stroke="#333" stroke-width="3"/>
+    <circle cx="89" cy="317" r="4" fill="#F0C060" stroke="#333" stroke-width="2"/>
+    <circle cx="97" cy="314" r="4" fill="#F0C060" stroke="#333" stroke-width="2"/>
+    <circle cx="105" cy="317" r="4" fill="#F0C060" stroke="#333" stroke-width="2"/>
+  </g>
+  <!-- Right Arm -->
+  <g>
+    <path d="M288 178 Q304 215 310 255 Q316 290 310 312 Q306 322 296 320 Q286 316 288 298 Q290 268 287 238 Q284 208 282 185 Z" fill="#E8A830" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Fur tufts at shoulder -->
+    <path d="M285 178 Q292 170 282 168 Q288 164 280 165" fill="none" stroke="#D09020" stroke-width="3" stroke-linecap="round"/>
+    <path d="M290 182 Q298 174 288 172" fill="none" stroke="#D09020" stroke-width="3" stroke-linecap="round"/>
+    <!-- Fur tufts at elbow -->
+    <path d="M312 255 Q318 248 310 248" fill="none" stroke="#D09020" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Paw -->
+    <ellipse cx="303" cy="320" rx="15" ry="10" fill="#F0C060" stroke="#333" stroke-width="3"/>
+    <circle cx="295" cy="317" r="4" fill="#F0C060" stroke="#333" stroke-width="2"/>
+    <circle cx="303" cy="314" r="4" fill="#F0C060" stroke="#333" stroke-width="2"/>
+    <circle cx="311" cy="317" r="4" fill="#F0C060" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>

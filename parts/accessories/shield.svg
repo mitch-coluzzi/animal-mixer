@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Cartoon Shield - Left side, Nick Jr. cartoony style -->
+
+  <!-- Shield shape (classic pointed bottom) - gold border -->
+  <path d="M55,190 L135,190 Q142,190 142,197 L142,270 Q142,300 95,310 Q48,300 48,270 L48,197 Q48,190 55,190 Z"
+        fill="#FFD700" stroke="#222" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Shield inner area (red) -->
+  <path d="M62,198 L128,198 Q133,198 133,203 L133,265 Q133,290 95,300 Q57,290 57,265 L57,203 Q57,198 62,198 Z"
+        fill="#FF3333" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Gold star emblem in center of shield -->
+  <polygon points="95,228 100,243 116,243 103,253 108,268 95,258 82,268 87,253 74,243 90,243"
+           fill="#FFD700" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Shield highlight (top-left shine) -->
+  <path d="M65,205 L85,205 L65,225 Z" fill="white" opacity="0.25"/>
+
+  <!-- Decorative gold trim lines -->
+  <path d="M70,210 L120,210" fill="none" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M65,280 Q95,295 125,280" fill="none" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Shield arm strap (visible behind) -->
+  <rect x="78" y="230" width="34" height="10" rx="3" fill="#8B4513" stroke="#222" stroke-width="2.5"/>
+  <rect x="78" y="258" width="34" height="10" rx="3" fill="#8B4513" stroke="#222" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Flamingo Tail - small fluffy pink feathers -->
+
+  <!-- Tail base - connects to body area -->
+  <path d="M288,260 C296,256 308,250 316,246 C323,248 320,263 313,268 C306,272 294,270 288,266Z" fill="#FF69B4" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Tail feather 1 - center, tallest -->
+  <path d="M316,246 C320,233 326,218 323,208 C328,205 334,212 333,226 C338,220 340,210 338,202 C344,204 346,218 343,234 C340,246 330,254 320,256Z" fill="#FF69B4" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Tail feather 2 - left/lower -->
+  <path d="M306,253 C310,243 314,230 312,220 C318,218 320,228 318,240 C316,248 310,256 306,258Z" fill="#FF1493" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Tail feather 3 - right/upper -->
+  <path d="M333,238 C340,226 348,214 346,206 C352,205 354,216 350,230 C347,240 340,248 336,248Z" fill="#FF1493" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Tail feather 4 - small extra fluff -->
+  <path d="M298,256 C300,248 304,238 302,230 C306,228 308,236 306,246 C304,252 300,258 298,260Z" fill="#FFB6C1" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Feather detail lines -->
+  <path d="M318,236 C320,226 322,218 321,212" fill="none" stroke="#E0127D" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M336,230 C338,220 340,214 339,208" fill="none" stroke="#E0127D" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M310,246 C312,238 313,230 312,224" fill="none" stroke="#E0127D" stroke-width="2" stroke-linecap="round"/>
+  <path d="M302,250 C303,244 304,237 303,232" fill="none" stroke="#E0127D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Tiny cute feather tip accents -->
+  <circle cx="323" cy="206" r="3.5" fill="#FF69B4" stroke="#222" stroke-width="2"/>
+  <circle cx="338" cy="200" r="3" fill="#FF1493" stroke="#222" stroke-width="2"/>
+  <circle cx="346" cy="204" r="3" fill="#FF69B4" stroke="#222" stroke-width="2"/>
+  <circle cx="302" cy="228" r="2.5" fill="#FFB6C1" stroke="#222" stroke-width="2"/>
+</svg>

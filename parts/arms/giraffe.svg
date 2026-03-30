@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Left Arm (slender with spots) -->
+  <g>
+    <path d="M112 180 Q100 218 96 258 Q92 295 96 315 Q98 325 106 322 Q114 318 112 298 Q110 268 112 238 Q114 208 116 185 Z" fill="#F5C858" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Spots -->
+    <ellipse cx="104" cy="210" rx="6" ry="5" fill="#C8A020" stroke="none"/>
+    <ellipse cx="98" cy="245" rx="5" ry="6" fill="#C8A020" stroke="none"/>
+    <ellipse cx="100" cy="278" rx="6" ry="5" fill="#C8A020" stroke="none"/>
+    <!-- Hoof -->
+    <ellipse cx="101" cy="324" rx="10" ry="7" fill="#8B6914" stroke="#333" stroke-width="3"/>
+    <line x1="101" y1="318" x2="101" y2="330" stroke="#333" stroke-width="2"/>
+  </g>
+  <!-- Right Arm (slender with spots) -->
+  <g>
+    <path d="M288 180 Q300 218 304 258 Q308 295 304 315 Q302 325 294 322 Q286 318 288 298 Q290 268 288 238 Q286 208 284 185 Z" fill="#F5C858" stroke="#333" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Spots -->
+    <ellipse cx="296" cy="210" rx="6" ry="5" fill="#C8A020" stroke="none"/>
+    <ellipse cx="302" cy="245" rx="5" ry="6" fill="#C8A020" stroke="none"/>
+    <ellipse cx="300" cy="278" rx="6" ry="5" fill="#C8A020" stroke="none"/>
+    <!-- Hoof -->
+    <ellipse cx="299" cy="324" rx="10" ry="7" fill="#8B6914" stroke="#333" stroke-width="3"/>
+    <line x1="299" y1="318" x2="299" y2="330" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>
