@@ -32,7 +32,7 @@ All parts use `viewBox="0 0 400 500"`, centered at x=200.
 | Bow tie | y=180-210 | Neck/upper chest |
 | Elephant trunk | y=150-260 | Dangles from face |
 | Frog tongue | y=160-270 | Extends from mouth |
-| Dragon spikes | y=30-350 | Along spine center |
+| Dragon spikes | y=38-158 | Branching moose-like horns from shoulders |
 | Wings | y=180-300 | Mid-body, spread wide |
 
 ### Canvas Layer Order (bottom to top)
