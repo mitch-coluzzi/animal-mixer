@@ -62,10 +62,9 @@
   <path d="M 155 195 Q 175 218 200 220 Q 225 218 245 195" fill="none" stroke="#333" stroke-width="3.5" stroke-linecap="round"/>
   <!-- Mouth interior for open smile -->
   <path d="M 162 197 Q 180 215 200 216 Q 220 215 238 197 Q 220 208 200 210 Q 180 208 162 197 Z" fill="#FF6B8A" stroke="none"/>
-  <!-- Couple of cute rounded teeth -->
-  <ellipse cx="180" cy="198" rx="6" ry="5" fill="white" stroke="#333" stroke-width="1.5"/>
-  <ellipse cx="200" cy="200" rx="6" ry="5" fill="white" stroke="#333" stroke-width="1.5"/>
-  <ellipse cx="220" cy="198" rx="6" ry="5" fill="white" stroke="#333" stroke-width="1.5"/>
+  <!-- Two small fang teeth peeking from grin -->
+  <ellipse cx="175" cy="200" rx="4" ry="3.5" fill="white" stroke="#333" stroke-width="1"/>
+  <ellipse cx="225" cy="200" rx="4" ry="3.5" fill="white" stroke="#333" stroke-width="1"/>
 
   <!-- Cheek blush spots -->
   <ellipse cx="120" cy="155" rx="15" ry="10" fill="#FF9EC6" opacity="0.5"/>
