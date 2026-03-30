@@ -1,57 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Lion Head -->
-  <!-- Mane - big fluffy around head -->
-  <path d="M200,30 C230,28 255,40 268,52 C285,38 310,42 318,62 C338,55 358,68 352,90 C372,92 382,112 372,132 C390,142 392,165 378,182 C392,198 388,222 370,235 C380,255 372,278 352,285 C358,308 345,328 322,330 C322,352 305,368 282,365 C275,385 255,395 235,388 C225,408 205,415 200,415 C195,415 175,408 165,388 C145,395 125,385 118,365 C95,368 78,352 78,330 C55,328 42,308 48,285 C28,278 20,255 30,235 C12,222 8,198 22,182 C8,165 10,142 28,132 C18,112 28,92 48,90 C42,68 62,55 82,62 C90,42 115,38 132,52 C145,40 170,28 200,30Z" fill="#E8A830" stroke="#222" stroke-width="3.5"/>
+  <!-- Lion Head - compact, upper canvas only -->
+  <!-- Mane - fluffy ring around head, stays within y=20-230 -->
+  <path d="M200,22 C222,20 240,28 250,38 C262,28 278,30 285,44 C298,40 312,50 308,65 C320,68 328,82 322,96 C335,102 338,118 328,130 C338,142 335,158 322,166 C330,178 325,194 312,200 C318,215 310,228 295,230 C295,242 282,252 268,248 C262,260 248,266 236,260 C228,272 215,278 200,278 C185,278 172,272 164,260 C152,266 138,260 132,248 C118,252 105,242 105,230 C90,228 82,215 88,200 C75,194 70,178 78,166 C65,158 62,142 72,130 C62,118 65,102 78,96 C72,82 80,68 92,65 C88,50 102,40 115,44 C122,30 138,28 150,38 C160,28 178,20 200,22Z" fill="#E8A830" stroke="#222" stroke-width="3.5"/>
 
   <!-- Mane texture lines -->
-  <path d="M140,55 C150,75 148,90 145,100" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M260,55 C250,75 252,90 255,100" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M85,95 C105,105 112,118 115,130" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M315,95 C295,105 288,118 285,130" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M60,170 C82,172 95,180 105,192" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M340,170 C318,172 305,180 295,192" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M55,255 C78,248 95,252 108,262" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M345,255 C322,248 305,252 292,262" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M85,320 C102,310 115,308 125,312" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M315,320 C298,310 285,308 275,312" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
+  <path d="M155,38 C160,52 158,62 156,70" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M245,38 C240,52 242,62 244,70" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M100,72 C112,78 118,88 120,96" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M300,72 C288,78 282,88 280,96" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M78,140 C92,142 100,150 105,158" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M322,140 C308,142 300,150 295,158" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M88,205 C102,200 112,204 120,210" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M312,205 C298,200 288,204 280,210" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Face shape - rounder, sits inside mane -->
-  <ellipse cx="200" cy="225" rx="115" ry="135" fill="#E8C068" stroke="#222" stroke-width="3"/>
+  <!-- Face shape inside mane -->
+  <ellipse cx="200" cy="148" rx="72" ry="82" fill="#E8C068" stroke="#222" stroke-width="3"/>
 
   <!-- Ears poking through mane -->
-  <ellipse cx="108" cy="120" rx="25" ry="22" fill="#E8C068" stroke="#222" stroke-width="3"/>
-  <ellipse cx="108" cy="120" rx="14" ry="12" fill="#E8A080" stroke="none"/>
-  <ellipse cx="292" cy="120" rx="25" ry="22" fill="#E8C068" stroke="#222" stroke-width="3"/>
-  <ellipse cx="292" cy="120" rx="14" ry="12" fill="#E8A080" stroke="none"/>
+  <ellipse cx="142" cy="82" rx="15" ry="13" fill="#E8C068" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="142" cy="82" rx="8" ry="7" fill="#E8A080" stroke="none"/>
+  <ellipse cx="258" cy="82" rx="15" ry="13" fill="#E8C068" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="258" cy="82" rx="8" ry="7" fill="#E8A080" stroke="none"/>
 
   <!-- Muzzle lighter area -->
-  <ellipse cx="200" cy="290" rx="70" ry="55" fill="#FFF0D0" stroke="none"/>
+  <ellipse cx="200" cy="180" rx="42" ry="32" fill="#FFF0D0" stroke="none"/>
 
-  <!-- Eyes - big and cute -->
-  <ellipse cx="158" cy="210" rx="26" ry="28" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
-  <ellipse cx="158" cy="214" rx="15" ry="17" fill="#5A3A10"/>
-  <ellipse cx="153" cy="207" rx="6" ry="7" fill="#FFFFFF"/>
-  <ellipse cx="242" cy="210" rx="26" ry="28" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
-  <ellipse cx="242" cy="214" rx="15" ry="17" fill="#5A3A10"/>
-  <ellipse cx="237" cy="207" rx="6" ry="7" fill="#FFFFFF"/>
+  <!-- Eyes -->
+  <ellipse cx="175" cy="130" rx="16" ry="18" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="175" cy="133" rx="9" ry="10" fill="#5A3A10"/>
+  <ellipse cx="171" cy="127" rx="4" ry="5" fill="#FFFFFF"/>
+  <ellipse cx="225" cy="130" rx="16" ry="18" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="225" cy="133" rx="9" ry="10" fill="#5A3A10"/>
+  <ellipse cx="221" cy="127" rx="4" ry="5" fill="#FFFFFF"/>
 
-  <!-- Nose - lion triangle -->
-  <path d="M188,272 C192,262 208,262 212,272 C216,282 208,292 200,292 C192,292 184,282 188,272Z" fill="#C88010" stroke="#222" stroke-width="2.5"/>
+  <!-- Nose -->
+  <path d="M193,170 C195,164 205,164 207,170 C210,176 205,182 200,182 C195,182 190,176 193,170Z" fill="#C88010" stroke="#222" stroke-width="2.5"/>
 
   <!-- Mouth -->
-  <line x1="200" y1="292" x2="200" y2="310" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M178,312 C185,325 192,330 200,330 C208,330 215,325 222,312" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="182" x2="200" y2="192" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M186,194 C192,203 196,206 200,206 C204,206 208,203 214,194" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
 
   <!-- Whisker dots -->
-  <circle cx="170" cy="298" r="3" fill="#C88010"/>
-  <circle cx="163" cy="306" r="3" fill="#C88010"/>
-  <circle cx="230" cy="298" r="3" fill="#C88010"/>
-  <circle cx="237" cy="306" r="3" fill="#C88010"/>
+  <circle cx="182" cy="178" r="2" fill="#C88010"/>
+  <circle cx="178" cy="184" r="2" fill="#C88010"/>
+  <circle cx="218" cy="178" r="2" fill="#C88010"/>
+  <circle cx="222" cy="184" r="2" fill="#C88010"/>
 
   <!-- Cheek blush -->
-  <ellipse cx="130" cy="255" rx="16" ry="10" fill="#E8B880" opacity="0.5"/>
-  <ellipse cx="270" cy="255" rx="16" ry="10" fill="#E8B880" opacity="0.5"/>
+  <ellipse cx="152" cy="158" rx="10" ry="7" fill="#E8B880" opacity="0.5"/>
+  <ellipse cx="248" cy="158" rx="10" ry="7" fill="#E8B880" opacity="0.5"/>
 
-  <!-- Neck -->
-  <path d="M155,385 C165,405 182,418 200,420 C218,418 235,405 245,385 L252,418 C238,428 220,432 200,432 C180,432 162,428 148,418Z" fill="#E8C068" stroke="#222" stroke-width="3"/>
+  <!-- Neck stub -->
+  <path d="M175,225 L170,415 C178,422 190,425 200,425 C210,425 222,422 230,415 L225,225Z" fill="#E8C068" stroke="#222" stroke-width="3"/>
 </svg>

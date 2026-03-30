@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Elephant Head -->
-  <!-- Big floppy ears -->
-  <path d="M30,180 C10,130 5,200 15,260 C25,320 55,350 80,340 C90,336 95,310 92,280 C88,230 80,190 70,170 C60,155 40,160 30,180Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
-  <path d="M40,200 C30,170 28,220 35,260 C42,300 60,320 75,315 C80,300 78,270 75,250 C70,215 58,190 48,185Z" fill="#E8C8A0" stroke="none"/>
-  <path d="M370,180 C390,130 395,200 385,260 C375,320 345,350 320,340 C310,336 305,310 308,280 C312,230 320,190 330,170 C340,155 360,160 370,180Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
-  <path d="M360,200 C370,170 372,220 365,260 C358,300 340,320 325,315 C320,300 322,270 325,250 C330,215 342,190 352,185Z" fill="#E8C8A0" stroke="none"/>
+  <!-- Elephant Head - compact, upper canvas only -->
+  <!-- Floppy ears -->
+  <path d="M95,105 C75,80 65,110 70,145 C75,175 92,190 108,185 C115,182 118,168 115,148 C112,125 105,110 95,105Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
+  <path d="M100,115 C88,100 82,122 86,148 C90,168 100,178 108,174 C110,165 108,148 106,135 C104,122 102,112 100,115Z" fill="#E8C8A0" stroke="none"/>
+  <path d="M305,105 C325,80 335,110 330,145 C325,175 308,190 292,185 C285,182 282,168 285,148 C288,125 295,110 305,105Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
+  <path d="M300,115 C312,100 318,122 314,148 C310,168 300,178 292,174 C290,165 292,148 294,135 C296,122 298,112 300,115Z" fill="#E8C8A0" stroke="none"/>
 
   <!-- Head shape -->
-  <path d="M100,160 C98,110 135,65 200,62 C265,65 302,110 300,160 C302,240 298,310 280,360 C265,395 240,418 200,420 C160,418 135,395 120,360 C102,310 98,240 100,160Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
+  <path d="M128,130 C126,92 155,55 200,52 C245,55 274,92 272,130 C274,175 270,200 258,215 C245,228 225,234 200,235 C175,234 155,228 142,215 C130,200 126,175 128,130Z" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
 
-  <!-- Eyes - big round cute -->
-  <ellipse cx="155" cy="195" rx="28" ry="30" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
-  <ellipse cx="155" cy="199" rx="16" ry="18" fill="#3A2820"/>
-  <ellipse cx="150" cy="192" rx="6" ry="7" fill="#FFFFFF"/>
-  <ellipse cx="245" cy="195" rx="28" ry="30" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
-  <ellipse cx="245" cy="199" rx="16" ry="18" fill="#3A2820"/>
-  <ellipse cx="240" cy="192" rx="6" ry="7" fill="#FFFFFF"/>
+  <!-- Eyes -->
+  <ellipse cx="168" cy="115" rx="17" ry="19" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="168" cy="118" rx="10" ry="11" fill="#3A2820"/>
+  <ellipse cx="164" cy="112" rx="4" ry="5" fill="#FFFFFF"/>
+  <ellipse cx="232" cy="115" rx="17" ry="19" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="232" cy="118" rx="10" ry="11" fill="#3A2820"/>
+  <ellipse cx="228" cy="112" rx="4" ry="5" fill="#FFFFFF"/>
 
-  <!-- Eyebrows - cute arched -->
-  <path d="M130,168 C140,158 165,156 178,162" fill="none" stroke="#A88A5A" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M222,162 C235,156 260,158 270,168" fill="none" stroke="#A88A5A" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Eyebrows -->
+  <path d="M152,98 C158,92 172,90 180,94" fill="none" stroke="#A88A5A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M220,94 C228,90 242,92 248,98" fill="none" stroke="#A88A5A" stroke-width="3" stroke-linecap="round"/>
 
-  <!-- Trunk -->
-  <path d="M180,255 C178,265 176,280 178,300 C180,320 184,340 188,360 C190,375 195,388 205,392 C215,388 218,370 216,355 C214,335 212,315 215,295 C218,275 220,265 220,255" fill="#C8A87A" stroke="#222" stroke-width="3.5" fill-rule="evenodd"/>
-  <path d="M185,255 C184,268 183,285 185,305 C187,325 190,345 193,362 C195,372 198,378 200,380 C202,378 208,368 210,358 C212,340 210,320 212,300 C214,280 215,268 215,255" fill="#E8C8A0" stroke="none"/>
+  <!-- Trunk - stays within head zone, ending by y=248 -->
+  <path d="M190,165 C188,175 186,190 188,205 C190,218 193,230 198,240 C202,248 208,248 212,240 C216,230 218,218 218,205 C220,190 218,175 216,165" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
+  <path d="M194,168 C193,178 192,192 193,208 C194,222 197,234 200,240 C203,234 208,220 209,208 C210,192 209,178 208,168" fill="#E8C8A0" stroke="none"/>
   <!-- Trunk tip curl -->
-  <path d="M205,392 C215,396 222,390 220,382" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <path d="M212,240 C218,244 222,240 220,234" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Mouth/smile beneath trunk -->
-  <path d="M165,280 C175,295 190,298 200,295" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M235,280 C225,295 210,298 200,295" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Smile on sides of trunk -->
+  <path d="M162,170 C168,180 178,184 188,180" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M238,170 C232,180 222,184 212,180" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
 
   <!-- Cheek blush -->
-  <ellipse cx="125" cy="240" rx="18" ry="12" fill="#E8B8A0" opacity="0.5"/>
-  <ellipse cx="275" cy="240" rx="18" ry="12" fill="#E8B8A0" opacity="0.5"/>
+  <ellipse cx="145" cy="148" rx="12" ry="8" fill="#E8B8A0" opacity="0.5"/>
+  <ellipse cx="255" cy="148" rx="12" ry="8" fill="#E8B8A0" opacity="0.5"/>
 
-  <!-- Forehead wrinkle (cute) -->
-  <path d="M175,130 C185,125 195,123 200,122 C205,123 215,125 225,130" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round"/>
+  <!-- Forehead wrinkle -->
+  <path d="M185,78 C192,74 200,73 208,74 C215,76 218,78 220,80" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Neck -->
-  <path d="M155,408 C165,418 182,424 200,425 C218,424 235,418 245,408 L250,420 C238,428 220,432 200,432 C180,432 162,428 150,420Z" fill="#C8A87A" stroke="#222" stroke-width="3"/>
+  <!-- Neck stub -->
+  <path d="M175,228 L170,415 C178,422 190,425 200,425 C210,425 222,422 230,415 L225,228Z" fill="#C8A87A" stroke="#222" stroke-width="3"/>
 </svg>
