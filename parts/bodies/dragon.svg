@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Dragon Body - Chubby, cute torso -->
+
+  <!-- Left wing nub -->
+  <path d="M 98 200 Q 60 185 55 210 Q 58 240 95 235" fill="#6A5ACD" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Left wing nub membrane detail -->
+  <path d="M 80 205 Q 72 215 78 228" fill="none" stroke="#98FB98" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Right wing nub -->
+  <path d="M 302 200 Q 340 185 345 210 Q 342 240 305 235" fill="#6A5ACD" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Right wing nub membrane detail -->
+  <path d="M 320 205 Q 328 215 322 228" fill="none" stroke="#98FB98" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Main body - chubby ellipse -->
+  <ellipse cx="200" cy="270" rx="108" ry="115" fill="#7B68EE" stroke="#333" stroke-width="3.5"/>
+
+  <!-- Belly patch - lighter green oval -->
+  <ellipse cx="200" cy="285" rx="68" ry="85" fill="#98FB98" stroke="none"/>
+  <!-- Belly patch outline for definition -->
+  <ellipse cx="200" cy="285" rx="68" ry="85" fill="none" stroke="#6A5ACD" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Row of belly scales -->
+  <ellipse cx="200" cy="205" rx="14" ry="10" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="200" cy="228" rx="16" ry="11" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="200" cy="253" rx="18" ry="12" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="200" cy="280" rx="18" ry="12" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="200" cy="307" rx="17" ry="11" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="200" cy="332" rx="15" ry="10" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="200" cy="355" rx="12" ry="9" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" opacity="0.8"/>
+</svg>

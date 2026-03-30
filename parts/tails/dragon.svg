@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Dragon Tail - Curvy with spade tip, anchored right side -->
+
+  <!-- Main tail curve -->
+  <path d="M 280 230 Q 310 225 340 235 Q 370 250 380 270 Q 385 290 370 295 Q 358 298 345 285 Q 330 268 350 260 Q 360 256 365 262" fill="none" stroke="#7B68EE" stroke-width="0"/>
+  <!-- Tail filled shape -->
+  <path d="M 280 218 Q 295 210 320 215 Q 355 222 375 245 Q 390 265 380 280 Q 372 290 355 278 Q 345 270 348 258 Q 350 248 340 240 Q 325 232 305 235 Q 288 240 280 250 Z" fill="#7B68EE" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Spade/arrow tip -->
+  <path d="M 358 258 Q 380 240 395 248 Q 398 260 390 275 Q 378 285 365 275 Q 355 268 358 258 Z" fill="#6A5ACD" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Inner spade detail -->
+  <path d="M 365 258 Q 382 250 388 258 Q 390 268 380 274 Q 372 276 366 268 Z" fill="#98FB98" stroke="none" opacity="0.6"/>
+
+  <!-- Ridges along top of tail -->
+  <path d="M 290 216 Q 287 205 293 204 Q 299 206 296 218" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 310 215 Q 308 203 315 201 Q 322 204 318 216" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 330 220 Q 330 208 337 206 Q 344 210 340 222" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 348 230 Q 350 218 357 217 Q 363 222 357 234" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 362 244 Q 366 233 372 233 Q 377 238 370 248" fill="#98FB98" stroke="#6A5ACD" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

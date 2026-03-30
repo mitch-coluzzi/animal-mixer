@@ -520,10 +520,10 @@
     }
 
     const PARTS = {
-      heads:       ['tiger','elephant','monkey','frog','lion','deer','duck'],
-      bodies:      ['tiger','elephant','bear','giraffe','panda','duck'],
-      legs:        ['tiger','elephant','flamingo','frog','lion','duck'],
-      tails:       ['tiger','peacock','lion','fish','snake','horse','duck'],
+      heads:       ['tiger','elephant','monkey','frog','lion','deer','duck','dragon'],
+      bodies:      ['tiger','elephant','bear','giraffe','panda','duck','dragon'],
+      legs:        ['tiger','elephant','flamingo','frog','lion','duck','dragon'],
+      tails:       ['tiger','peacock','lion','fish','snake','horse','duck','dragon'],
       accessories: ['party_hat','crown','bow_tie','glasses','bow','top_hat',
                     'elephant_trunk','frog_tongue','unicorn_horn','dragon_spikes','wings']
     };
@@ -537,7 +537,7 @@
       { name: 'candy',  color: '#FF8FAB' },
     ];
 
-    const BASE_ANIMALS = ['tiger','elephant','bear','giraffe','panda','duck'];
+    const BASE_ANIMALS = ['tiger','elephant','bear','giraffe','panda','duck','dragon'];
 
     // Map base animal to best-matching parts from available SVGs
     const BASE_PRESETS = {
@@ -547,6 +547,7 @@
       giraffe:  { head:'deer',     body:'giraffe',  legs:'flamingo', tail:'horse' },
       panda:    { head:'frog',     body:'panda',    legs:'duck',     tail:'snake' },
       duck:     { head:'duck',     body:'duck',     legs:'duck',     tail:'duck' },
+      dragon:   { head:'dragon',   body:'dragon',   legs:'dragon',   tail:'dragon' },
     };
 
     // Current mix state
