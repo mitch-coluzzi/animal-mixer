@@ -1,32 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Gray Elephant Trunk dangling from snout area -->
-  <!-- Main trunk shape - curling down and slightly to the right -->
-  <path d="M200,260
-           Q202,280 205,300
-           Q210,330 215,350
-           Q220,370 210,385
-           Q195,400 180,390
-           Q170,380 178,370"
-        fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Trunk width - second edge to give thickness -->
-  <path d="M200,260
-           Q195,270 190,280
-           Q185,300 182,320
-           Q178,340 175,355
-           Q172,370 178,370"
-        fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Fill the trunk body -->
-  <path d="M200,260 Q202,280 205,300 Q210,330 215,350 Q220,370 210,385 Q195,400 180,390 Q170,380 178,370 Q172,370 175,355 Q178,340 182,320 Q185,300 190,280 Q195,270 200,260 Z"
+  <!-- Gray Elephant Trunk dangling from snout y=150 down to y=260 -->
+  <!-- Trunk fill shape -->
+  <path d="M200,150 Q203,170 207,190 Q212,215 216,235 Q220,250 212,258 Q200,268 188,260 Q178,252 180,242 Q178,230 182,215 Q186,195 190,175 Q194,160 200,150 Z"
         fill="#C8A87A" stroke="none"/>
-  <!-- Outline again on top -->
-  <path d="M200,260 Q202,280 205,300 Q210,330 215,350 Q220,370 210,385 Q195,400 180,390 Q170,380 178,370 Q172,370 175,355 Q178,340 182,320 Q185,300 190,280 Q195,270 200,260"
+  <!-- Trunk outline -->
+  <path d="M200,150 Q203,170 207,190 Q212,215 216,235 Q220,250 212,258 Q200,268 188,260 Q178,252 180,242 Q178,230 182,215 Q186,195 190,175 Q194,160 200,150"
         fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
   <!-- Trunk wrinkle lines -->
-  <path d="M192,285 Q200,288 206,284" fill="none" stroke="#A08860" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M188,310 Q197,314 207,309" fill="none" stroke="#A08860" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M183,340 Q192,344 210,340" fill="none" stroke="#A08860" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M193,178 Q200,181 208,177" fill="none" stroke="#A08860" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M190,200 Q199,204 209,199" fill="none" stroke="#A08860" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M186,225 Q196,229 212,224" fill="none" stroke="#A08860" stroke-width="2.5" stroke-linecap="round"/>
   <!-- Trunk tip (nostrils) -->
-  <ellipse cx="185" cy="378" rx="6" ry="4" fill="#A08860" stroke="#222" stroke-width="2"/>
+  <ellipse cx="194" cy="256" rx="6" ry="4" fill="#A08860" stroke="#222" stroke-width="2"/>
   <!-- Top attachment area - wider base -->
-  <ellipse cx="200" cy="262" rx="14" ry="6" fill="#C8A87A" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="200" cy="152" rx="14" ry="6" fill="#C8A87A" stroke="#222" stroke-width="2.5"/>
 </svg>

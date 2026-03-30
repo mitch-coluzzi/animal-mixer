@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Long Pink Frog Tongue sticking out from mouth area -->
+  <!-- Long Pink Frog Tongue sticking out from mouth y=160 down to y=270 -->
   <!-- Tongue base at mouth -->
-  <ellipse cx="200" cy="270" rx="16" ry="8" fill="#FF6B8A" stroke="#222" stroke-width="3"/>
-  <!-- Main tongue body - curling out and down -->
-  <path d="M188,270
-           Q185,290 182,310
-           Q178,340 185,365
-           Q192,385 200,390
-           Q208,385 215,365
-           Q222,340 218,310
-           Q215,290 212,270"
+  <ellipse cx="200" cy="162" rx="16" ry="8" fill="#FF6B8A" stroke="#222" stroke-width="3"/>
+  <!-- Main tongue body -->
+  <path d="M186,162
+           Q183,180 181,200
+           Q178,225 184,248
+           Q190,262 200,268
+           Q210,262 216,248
+           Q222,225 219,200
+           Q217,180 214,162"
         fill="#FF6B8A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Center line of tongue -->
-  <path d="M200,275 Q200,310 200,370" fill="none" stroke="#E0506E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M200,168 Q200,210 200,255" fill="none" stroke="#E0506E" stroke-width="2.5" stroke-linecap="round"/>
   <!-- Tongue tip - rounded fork -->
-  <path d="M195,385 Q190,400 185,405" fill="none" stroke="#FF6B8A" stroke-width="6" stroke-linecap="round"/>
-  <path d="M205,385 Q210,400 215,405" fill="none" stroke="#FF6B8A" stroke-width="6" stroke-linecap="round"/>
-  <path d="M195,385 Q190,400 185,405" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
-  <path d="M205,385 Q210,400 215,405" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <path d="M195,262 Q189,275 184,280" fill="none" stroke="#FF6B8A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M205,262 Q211,275 216,280" fill="none" stroke="#FF6B8A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M195,262 Q189,275 184,280" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <path d="M205,262 Q211,275 216,280" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
   <!-- Wet shine highlights -->
-  <ellipse cx="195" cy="300" rx="4" ry="10" fill="#FFFFFF" opacity="0.4" transform="rotate(-5,195,300)"/>
-  <ellipse cx="205" cy="340" rx="3" ry="8" fill="#FFFFFF" opacity="0.35" transform="rotate(5,205,340)"/>
+  <ellipse cx="194" cy="195" rx="4" ry="10" fill="#FFFFFF" opacity="0.4" transform="rotate(-5,194,195)"/>
+  <ellipse cx="206" cy="230" rx="3" ry="8" fill="#FFFFFF" opacity="0.35" transform="rotate(5,206,230)"/>
   <!-- Saliva drip -->
-  <ellipse cx="200" cy="395" rx="3" ry="5" fill="#FF8DA6" opacity="0.5"/>
+  <ellipse cx="200" cy="272" rx="3" ry="5" fill="#FF8DA6" opacity="0.5"/>
 </svg>

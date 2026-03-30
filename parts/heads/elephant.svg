@@ -38,6 +38,4 @@
   <!-- Forehead wrinkle -->
   <path d="M185,78 C192,74 200,73 208,74 C215,76 218,78 220,80" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Neck stub -->
-  <path d="M175,228 L170,415 C178,422 190,425 200,425 C210,425 222,422 230,415 L225,228Z" fill="#C8A87A" stroke="#222" stroke-width="3"/>
 </svg>

@@ -1,34 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
   <!-- Bear Body - chunky and fluffy -->
-  <!-- Main torso - big chunky shape -->
-  <ellipse cx="200" cy="235" rx="140" ry="150" fill="#8B6914" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Main torso -->
+  <ellipse cx="200" cy="265" rx="105" ry="115" fill="#8B6914" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Fluffy shoulder - left -->
-  <ellipse cx="85" cy="145" rx="58" ry="54" fill="#8B6914" stroke="#222" stroke-width="3.5"/>
+  <ellipse cx="110" cy="178" rx="42" ry="38" fill="#8B6914" stroke="#222" stroke-width="3.5"/>
   <!-- Fluffy shoulder - right -->
-  <ellipse cx="315" cy="145" rx="58" ry="54" fill="#8B6914" stroke="#222" stroke-width="3.5"/>
-  <!-- Neck connector -->
-  <rect x="135" y="75" width="130" height="65" rx="16" fill="#8B6914" stroke="none"/>
+  <ellipse cx="290" cy="178" rx="42" ry="38" fill="#8B6914" stroke="#222" stroke-width="3.5"/>
   <!-- Torso overlay to clean joins -->
-  <ellipse cx="200" cy="235" rx="137" ry="147" fill="#8B6914" stroke="none"/>
+  <ellipse cx="200" cy="265" rx="102" ry="112" fill="#8B6914" stroke="none"/>
   <!-- Belly patch - lighter brown -->
-  <ellipse cx="200" cy="260" rx="90" ry="100" fill="#A8842A" stroke="none"/>
+  <ellipse cx="200" cy="278" rx="68" ry="78" fill="#A8842A" stroke="none"/>
   <!-- Inner belly - even lighter -->
-  <ellipse cx="200" cy="275" rx="65" ry="75" fill="#C4A44E" stroke="none"/>
+  <ellipse cx="200" cy="290" rx="48" ry="55" fill="#C4A44E" stroke="none"/>
   <!-- Fluffy texture bumps on edges -->
-  <path d="M68 170 Q62 180 68 192" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M72 200 Q65 212 72 225" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M332 170 Q338 180 332 192" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M328 200 Q335 212 328 225" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M100 215 Q95 224 100 234" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M104 242 Q98 253 104 264" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M300 215 Q305 224 300 234" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M296 242 Q302 253 296 264" fill="none" stroke="#6B4A0A" stroke-width="2.5" stroke-linecap="round"/>
   <!-- Chest fluff tufts -->
-  <path d="M170 145 Q180 130 190 145" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
-  <path d="M195 140 Q205 125 215 140" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
-  <path d="M220 145 Q230 130 240 145" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M172 175 Q180 163 188 175" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M192 170 Q200 158 208 170" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M212 175 Q220 163 228 175" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
   <!-- Fluffy edge bumps - bottom -->
-  <path d="M110 350 Q105 360 112 368" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
-  <path d="M288 350 Q295 360 288 368" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M135 355 Q130 363 136 370" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M265 355 Q270 363 264 370" fill="none" stroke="#6B4A0A" stroke-width="2" stroke-linecap="round"/>
   <!-- Re-draw main outline -->
-  <ellipse cx="200" cy="235" rx="140" ry="150" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="265" rx="105" ry="115" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Shoulder outlines -->
-  <path d="M88 92 Q30 115 32 165 Q34 200 58 200" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M312 92 Q370 115 368 165 Q366 200 342 200" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M112 141 Q72 155 74 192 Q76 215 92 218" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M288 141 Q328 155 326 192 Q324 215 308 218" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
 </svg>

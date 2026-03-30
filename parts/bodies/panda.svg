@@ -1,31 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
   <!-- Panda Body - black arms, white belly -->
   <!-- Main torso - round and chunky -->
-  <ellipse cx="200" cy="235" rx="135" ry="150" fill="#fff" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="265" rx="100" ry="115" fill="#fff" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Black shoulder/arm - left -->
-  <ellipse cx="82" cy="150" rx="58" ry="52" fill="#333" stroke="#222" stroke-width="3.5"/>
+  <ellipse cx="112" cy="180" rx="42" ry="36" fill="#333" stroke="#222" stroke-width="3.5"/>
   <!-- Black shoulder/arm - right -->
-  <ellipse cx="318" cy="150" rx="58" ry="52" fill="#333" stroke="#222" stroke-width="3.5"/>
-  <!-- Neck connector -->
-  <rect x="140" y="75" width="120" height="60" rx="15" fill="#fff" stroke="none"/>
+  <ellipse cx="288" cy="180" rx="42" ry="36" fill="#333" stroke="#222" stroke-width="3.5"/>
   <!-- Torso overlay to clean joins -->
-  <ellipse cx="200" cy="235" rx="132" ry="147" fill="#fff" stroke="none"/>
+  <ellipse cx="200" cy="265" rx="97" ry="112" fill="#fff" stroke="none"/>
   <!-- Black patches on sides of torso -->
-  <path d="M70 180 Q68 230 85 280 Q100 310 120 310 Q100 270 95 230 Q90 190 92 170 Z" fill="#333" stroke="none"/>
-  <path d="M330 180 Q332 230 315 280 Q300 310 280 310 Q300 270 305 230 Q310 190 308 170 Z" fill="#333" stroke="none"/>
+  <path d="M102 215 Q100 255 112 295 Q122 318 138 320 Q120 290 115 260 Q112 230 114 210 Z" fill="#333" stroke="none"/>
+  <path d="M298 215 Q300 255 288 295 Q278 318 262 320 Q280 290 285 260 Q288 230 286 210 Z" fill="#333" stroke="none"/>
   <!-- White belly - prominent -->
-  <ellipse cx="200" cy="270" rx="90" ry="100" fill="#fff" stroke="none"/>
+  <ellipse cx="200" cy="280" rx="68" ry="78" fill="#fff" stroke="none"/>
   <!-- Inner belly circle detail -->
-  <ellipse cx="200" cy="280" rx="60" ry="65" fill="#f5f5f5" stroke="none"/>
+  <ellipse cx="200" cy="290" rx="45" ry="50" fill="#f5f5f5" stroke="none"/>
   <!-- Belly button -->
-  <ellipse cx="200" cy="300" rx="5" ry="7" fill="none" stroke="#ccc" stroke-width="2"/>
+  <ellipse cx="200" cy="310" rx="4" ry="6" fill="none" stroke="#ccc" stroke-width="2"/>
   <!-- Black coloring at top of torso -->
-  <path d="M140 85 Q145 110 155 130 Q170 140 200 145 Q230 140 245 130 Q255 110 260 85 Z" fill="#333" stroke="none"/>
+  <path d="M150 155 Q155 170 165 182 Q178 190 200 194 Q222 190 235 182 Q245 170 250 155 Z" fill="#333" stroke="none"/>
   <!-- White patch over black top to make it a band -->
-  <rect x="155" y="110" width="90" height="45" rx="20" fill="#fff" stroke="none"/>
+  <rect x="165" y="168" width="70" height="32" rx="14" fill="#fff" stroke="none"/>
   <!-- Re-draw main outline -->
-  <ellipse cx="200" cy="235" rx="135" ry="150" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="265" rx="100" ry="115" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Shoulder outlines -->
-  <path d="M85 98 Q28 118 28 168 Q28 202 52 205" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M315 98 Q372 118 372 168 Q372 202 348 205" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M115 145 Q76 158 76 194 Q76 218 94 222" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M285 145 Q324 158 324 194 Q324 218 306 222" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
 </svg>

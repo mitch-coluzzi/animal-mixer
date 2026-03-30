@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Bright Red Bow Tie at neck/chest area -->
+  <!-- Bright Red Bow Tie at neck/upper chest y=180 to y=210 -->
   <!-- Left bow lobe -->
-  <path d="M200,365 Q145,340 135,355 Q125,370 200,375 Z"
+  <path d="M200,192 Q145,175 135,188 Q128,202 200,205 Z"
         fill="#FF0000" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Right bow lobe -->
-  <path d="M200,365 Q255,340 265,355 Q275,370 200,375 Z"
+  <path d="M200,192 Q255,175 265,188 Q272,202 200,205 Z"
         fill="#FF0000" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Bottom left tail -->
-  <path d="M200,375 Q150,380 140,370 Q130,395 200,380 Z"
+  <path d="M200,205 Q155,208 142,200 Q135,218 200,210 Z"
         fill="#DD0000" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
   <!-- Bottom right tail -->
-  <path d="M200,375 Q250,380 260,370 Q270,395 200,380 Z"
+  <path d="M200,205 Q245,208 258,200 Q265,218 200,210 Z"
         fill="#DD0000" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
   <!-- Center knot -->
-  <ellipse cx="200" cy="370" rx="12" ry="10" fill="#CC0000" stroke="#222" stroke-width="3"/>
-  <!-- Highlight -->
-  <ellipse cx="160" cy="358" rx="8" ry="4" fill="#FF4444" opacity="0.6" transform="rotate(-10,160,358)"/>
-  <ellipse cx="240" cy="358" rx="8" ry="4" fill="#FF4444" opacity="0.6" transform="rotate(10,240,358)"/>
+  <ellipse cx="200" cy="198" rx="12" ry="10" fill="#CC0000" stroke="#222" stroke-width="3"/>
+  <!-- Highlights -->
+  <ellipse cx="162" cy="188" rx="8" ry="4" fill="#FF4444" opacity="0.6" transform="rotate(-10,162,188)"/>
+  <ellipse cx="238" cy="188" rx="8" ry="4" fill="#FF4444" opacity="0.6" transform="rotate(10,238,188)"/>
 </svg>

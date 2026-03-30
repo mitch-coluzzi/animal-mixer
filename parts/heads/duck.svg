@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Rubber Ducky Head - for Maggie! -->
+
+  <!-- Head shape - big round wobbly rubber ducky head -->
+  <path d="M118,130 C116,88 145,42 200,40 C255,42 284,88 282,130 C284,172 270,200 254,212 C238,222 220,226 200,227 C180,226 162,222 146,212 C130,200 116,172 118,130Z" fill="#FFD700" stroke="#222" stroke-width="3.5"/>
+
+  <!-- Feathery hair tuft on top -->
+  <path d="M192,44 C188,28 195,16 200,10 C202,14 204,22 200,32" fill="none" stroke="#FFC000" stroke-width="4" stroke-linecap="round"/>
+  <path d="M200,42 C200,26 210,12 218,8 C217,14 215,24 208,34" fill="none" stroke="#FFC000" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184,48 C176,34 178,18 184,12 C188,18 190,28 186,40" fill="none" stroke="#FFC000" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Tuft tips - cute little feather dots -->
+  <circle cx="200" cy="9" r="4" fill="#FFD700" stroke="#222" stroke-width="2"/>
+  <circle cx="218" cy="7" r="3.5" fill="#FFD700" stroke="#222" stroke-width="2"/>
+  <circle cx="184" cy="11" r="3" fill="#FFD700" stroke="#222" stroke-width="2"/>
+
+  <!-- Eyes - big cute sparkly eyes -->
+  <ellipse cx="170" cy="118" rx="22" ry="24" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="170" cy="122" rx="14" ry="15" fill="#1A1A2E"/>
+  <ellipse cx="165" cy="114" rx="6" ry="7" fill="#FFFFFF"/>
+  <circle cx="175" cy="126" r="3" fill="#FFFFFF"/>
+  <ellipse cx="230" cy="118" rx="22" ry="24" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="230" cy="122" rx="14" ry="15" fill="#1A1A2E"/>
+  <ellipse cx="225" cy="114" rx="6" ry="7" fill="#FFFFFF"/>
+  <circle cx="235" cy="126" r="3" fill="#FFFFFF"/>
+
+  <!-- Cute little eyelashes -->
+  <path d="M152,100 C154,94 158,92 160,90" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M148,106 C148,100 150,96 152,94" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M248,100 C246,94 242,92 240,90" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M252,106 C252,100 250,96 248,94" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Rosy cheeks -->
+  <circle cx="148" cy="155" r="16" fill="#FF9999" opacity="0.6"/>
+  <circle cx="252" cy="155" r="16" fill="#FF9999" opacity="0.6"/>
+
+  <!-- Beak - flat wide orange duck bill -->
+  <path d="M162,150 C158,140 168,130 200,128 C232,130 242,140 238,150 C242,158 235,170 200,172 C165,170 158,158 162,150Z" fill="#FF8C00" stroke="#222" stroke-width="3.5"/>
+  <!-- Beak line - mouth -->
+  <path d="M165,152 C180,156 200,157 200,157 C200,157 220,156 235,152" fill="none" stroke="#FF6600" stroke-width="3" stroke-linecap="round"/>
+  <!-- Nostrils -->
+  <ellipse cx="188" cy="143" rx="3" ry="2.5" fill="#FF6600"/>
+  <ellipse cx="212" cy="143" rx="3" ry="2.5" fill="#FF6600"/>
+
+  <!-- Happy little smile line below beak -->
+  <path d="M190,178 C195,184 200,186 200,186 C200,186 205,184 210,178" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -40,6 +40,4 @@
   <ellipse cx="152" cy="148" rx="10" ry="7" fill="#E8A080" opacity="0.4"/>
   <ellipse cx="248" cy="148" rx="10" ry="7" fill="#E8A080" opacity="0.4"/>
 
-  <!-- Neck stub -->
-  <path d="M175,208 L170,415 C178,422 190,425 200,425 C210,425 222,422 230,415 L225,208Z" fill="#C8824A" stroke="#222" stroke-width="3"/>
 </svg>

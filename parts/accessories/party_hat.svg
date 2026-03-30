@@ -1,20 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Party Hat - bright cone with stripes and pom-pom -->
-  <polygon points="200,30 140,120 260,120" fill="#FF3333" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,30 155,100 245,100" fill="#FFDD00" stroke="none"/>
-  <polygon points="200,30 170,75 230,75" fill="#3399FF" stroke="none"/>
-  <!-- Wobbly stripes on cone -->
-  <line x1="152" y1="105" x2="248" y2="107" stroke="#FFDD00" stroke-width="6" stroke-linecap="round"/>
-  <line x1="164" y1="82" x2="236" y2="84" stroke="#3399FF" stroke-width="5" stroke-linecap="round"/>
-  <line x1="178" y1="58" x2="222" y2="59" stroke="#FFDD00" stroke-width="4" stroke-linecap="round"/>
+  <!-- Party Hat - bright cone with polka dots, tip up from y=5, base at y=55 -->
+  <!-- Main cone -->
+  <polygon points="200,5 140,55 260,55" fill="#FF3333" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Colored stripe layers on cone -->
+  <polygon points="200,5 155,40 245,40" fill="#FFDD00" stroke="none"/>
+  <polygon points="200,5 170,25 230,25" fill="#3399FF" stroke="none"/>
+  <!-- Wobbly stripes -->
+  <line x1="148" y1="48" x2="252" y2="50" stroke="#FFDD00" stroke-width="6" stroke-linecap="round"/>
+  <line x1="162" y1="32" x2="238" y2="34" stroke="#3399FF" stroke-width="5" stroke-linecap="round"/>
+  <line x1="176" y1="18" x2="224" y2="19" stroke="#FFDD00" stroke-width="4" stroke-linecap="round"/>
   <!-- Brim / elastic band -->
-  <ellipse cx="200" cy="120" rx="62" ry="10" fill="#3399FF" stroke="#222" stroke-width="3" />
+  <ellipse cx="200" cy="56" rx="62" ry="10" fill="#3399FF" stroke="#222" stroke-width="3"/>
   <!-- Pom-pom on top -->
-  <circle cx="200" cy="28" r="10" fill="#FFDD00" stroke="#222" stroke-width="3"/>
-  <circle cx="196" cy="24" r="4" fill="#FF3333" stroke="none"/>
-  <circle cx="205" cy="30" r="3.5" fill="#3399FF" stroke="none"/>
+  <circle cx="200" cy="5" r="10" fill="#FFDD00" stroke="#222" stroke-width="3"/>
+  <circle cx="196" cy="2" r="4" fill="#FF3333" stroke="none"/>
+  <circle cx="205" cy="7" r="3.5" fill="#3399FF" stroke="none"/>
   <!-- Polka dots on hat -->
-  <circle cx="180" cy="95" r="5" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="215" cy="88" r="4" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="195" cy="70" r="3.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="175" cy="42" r="5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="215" cy="36" r="4" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="195" cy="22" r="3.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="225" cy="45" r="4.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="160" cy="35" r="3" fill="#FFFFFF" opacity="0.7"/>
 </svg>

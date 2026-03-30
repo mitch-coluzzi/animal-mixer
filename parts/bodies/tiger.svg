@@ -1,33 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
   <!-- Tiger Body -->
-  <!-- Main torso - chunky oval -->
-  <ellipse cx="200" cy="230" rx="130" ry="155" fill="#E8823A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <!-- Belly -->
-  <ellipse cx="200" cy="260" rx="85" ry="105" fill="#F4B67A" stroke="none"/>
+  <!-- Main torso -->
+  <ellipse cx="200" cy="265" rx="100" ry="115" fill="#E8823A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Belly - lighter orange -->
+  <ellipse cx="200" cy="280" rx="65" ry="80" fill="#F4B67A" stroke="none"/>
   <!-- Left shoulder bump -->
-  <ellipse cx="95" cy="145" rx="52" ry="48" fill="#E8823A" stroke="#222" stroke-width="3.5"/>
+  <ellipse cx="115" cy="175" rx="38" ry="32" fill="#E8823A" stroke="#222" stroke-width="3.5"/>
   <!-- Right shoulder bump -->
-  <ellipse cx="305" cy="145" rx="52" ry="48" fill="#E8823A" stroke="#222" stroke-width="3.5"/>
-  <!-- Neck connector (covers shoulder overlap) -->
-  <rect x="140" y="75" width="120" height="60" rx="15" fill="#E8823A" stroke="none"/>
-  <!-- Torso overlay to clean up shoulder joins -->
-  <ellipse cx="200" cy="230" rx="127" ry="152" fill="#E8823A" stroke="none"/>
+  <ellipse cx="285" cy="175" rx="38" ry="32" fill="#E8823A" stroke="#222" stroke-width="3.5"/>
+  <!-- Torso overlay to clean shoulder joins -->
+  <ellipse cx="200" cy="265" rx="97" ry="112" fill="#E8823A" stroke="none"/>
   <!-- Belly again on top -->
-  <ellipse cx="200" cy="260" rx="85" ry="105" fill="#F4B67A" stroke="none"/>
+  <ellipse cx="200" cy="280" rx="65" ry="80" fill="#F4B67A" stroke="none"/>
   <!-- Tiger stripes - left side -->
-  <path d="M90 170 Q110 175 100 200" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
-  <path d="M80 215 Q105 225 95 250" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
-  <path d="M85 270 Q110 280 100 305" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M108 210 Q125 216 118 238" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M103 255 Q122 264 115 285" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M108 300 Q125 310 118 330" fill="none" stroke="#D06A28" stroke-width="4.5" stroke-linecap="round"/>
   <!-- Tiger stripes - right side -->
-  <path d="M310 170 Q290 175 300 200" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
-  <path d="M320 215 Q295 225 305 250" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
-  <path d="M315 270 Q290 280 300 305" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
-  <!-- Tiger stripes - back/top -->
-  <path d="M175 105 Q200 115 185 135" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
-  <path d="M225 105 Q200 115 215 135" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M292 210 Q275 216 282 238" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M297 255 Q278 264 285 285" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M292 300 Q275 310 282 330" fill="none" stroke="#D06A28" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Tiger stripes - top back -->
+  <path d="M175 162 Q192 170 183 188" fill="none" stroke="#D06A28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M225 162 Q208 170 217 188" fill="none" stroke="#D06A28" stroke-width="4" stroke-linecap="round"/>
   <!-- Re-draw main outline on top -->
-  <ellipse cx="200" cy="230" rx="130" ry="155" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="265" rx="100" ry="115" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Shoulder outlines on top -->
-  <path d="M95 97 Q45 120 55 165 Q65 195 80 195" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M305 97 Q355 120 345 165 Q335 195 320 195" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M118 144 Q82 158 85 190 Q88 210 100 212" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M282 144 Q318 158 315 190 Q312 210 300 212" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
 </svg>

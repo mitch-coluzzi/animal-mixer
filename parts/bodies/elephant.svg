@@ -1,30 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
   <!-- Elephant Body - wide and round -->
-  <!-- Main torso - extra wide chunky shape -->
-  <ellipse cx="200" cy="235" rx="155" ry="150" fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Main torso - extra wide -->
+  <ellipse cx="200" cy="268" rx="110" ry="112" fill="#C8A87A" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Big round belly -->
-  <ellipse cx="200" cy="265" rx="110" ry="110" fill="#DBBF9A" stroke="none"/>
+  <ellipse cx="200" cy="285" rx="78" ry="82" fill="#DBBF9A" stroke="none"/>
   <!-- Left shoulder - big and round -->
-  <ellipse cx="75" cy="155" rx="60" ry="55" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
+  <ellipse cx="105" cy="180" rx="42" ry="38" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
   <!-- Right shoulder - big and round -->
-  <ellipse cx="325" cy="155" rx="60" ry="55" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
-  <!-- Neck connector -->
-  <rect x="135" y="75" width="130" height="65" rx="18" fill="#C8A87A" stroke="none"/>
+  <ellipse cx="295" cy="180" rx="42" ry="38" fill="#C8A87A" stroke="#222" stroke-width="3.5"/>
   <!-- Torso overlay to clean joins -->
-  <ellipse cx="200" cy="235" rx="152" ry="147" fill="#C8A87A" stroke="none"/>
+  <ellipse cx="200" cy="268" rx="107" ry="109" fill="#C8A87A" stroke="none"/>
   <!-- Belly again on top -->
-  <ellipse cx="200" cy="265" rx="110" ry="110" fill="#DBBF9A" stroke="none"/>
-  <!-- Belly button - cute detail -->
-  <ellipse cx="200" cy="295" rx="6" ry="8" fill="none" stroke="#A88A5A" stroke-width="2.5"/>
-  <!-- Skin wrinkle lines on belly -->
-  <path d="M155 220 Q175 215 195 220" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
-  <path d="M205 220 Q225 215 245 220" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <ellipse cx="200" cy="285" rx="78" ry="82" fill="#DBBF9A" stroke="none"/>
+  <!-- Belly button -->
+  <ellipse cx="200" cy="310" rx="5" ry="7" fill="none" stroke="#A88A5A" stroke-width="2.5"/>
+  <!-- Skin wrinkle lines -->
+  <path d="M160 248 Q178 243 196 248" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M204 248 Q222 243 240 248" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
   <!-- Wrinkle near shoulders -->
-  <path d="M120 175 Q130 165 140 175" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
-  <path d="M260 175 Q270 165 280 175" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M128 205 Q136 197 144 205" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M256 205 Q264 197 272 205" fill="none" stroke="#A88A5A" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
   <!-- Re-draw main outline -->
-  <ellipse cx="200" cy="235" rx="155" ry="150" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="268" rx="110" ry="112" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Shoulder outlines -->
-  <path d="M80 100 Q20 125 25 175 Q30 210 55 210" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M320 100 Q380 125 375 175 Q370 210 345 210" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M108 143 Q68 158 70 195 Q72 220 88 222" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M292 143 Q332 158 330 195 Q328 220 312 222" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
 </svg>

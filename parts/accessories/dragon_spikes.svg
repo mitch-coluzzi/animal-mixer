@@ -1,38 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Row of Dragon Spikes running down the spine from y=80 to y=350 -->
-  <!-- Spike 1 - top/biggest -->
-  <polygon points="200,80 185,115 215,115" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,80 192,105 208,105" fill="#FF6347" stroke="none"/>
+  <!-- Row of Dragon Spikes running down the spine from y=30 to y=350 -->
+  <!-- Spike 1 - top, biggest -->
+  <polygon points="200,30 183,68 217,68" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,30 191,58 209,58" fill="#FF6347" stroke="none"/>
 
   <!-- Spike 2 -->
-  <polygon points="200,115 183,155 217,155" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,115 191,145 209,145" fill="#FF6347" stroke="none"/>
+  <polygon points="200,65 182,105 218,105" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,65 190,95 210,95" fill="#FF6347" stroke="none"/>
 
   <!-- Spike 3 -->
-  <polygon points="200,150 184,188 216,188" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,150 192,178 208,178" fill="#FF6347" stroke="none"/>
+  <polygon points="200,100 183,138 217,138" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,100 191,128 209,128" fill="#FF6347" stroke="none"/>
 
   <!-- Spike 4 -->
-  <polygon points="200,183 185,218 215,218" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,183 192,210 208,210" fill="#FF6347" stroke="none"/>
+  <polygon points="200,135 184,170 216,170" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,135 192,162 208,162" fill="#FF6347" stroke="none"/>
 
   <!-- Spike 5 -->
-  <polygon points="200,215 186,248 214,248" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,215 193,240 207,240" fill="#FF6347" stroke="none"/>
+  <polygon points="200,168 185,202 215,202" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,168 192,194 208,194" fill="#FF6347" stroke="none"/>
 
   <!-- Spike 6 -->
-  <polygon points="200,245 187,275 213,275" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,245 193,268 207,268" fill="#FF6347" stroke="none"/>
+  <polygon points="200,200 186,232 214,232" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,200 193,225 207,225" fill="#FF6347" stroke="none"/>
 
   <!-- Spike 7 -->
-  <polygon points="200,272 188,300 212,300" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,272 194,294 206,294" fill="#FF6347" stroke="none"/>
+  <polygon points="200,230 187,260 213,260" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,230 193,254 207,254" fill="#FF6347" stroke="none"/>
 
-  <!-- Spike 8 - smaller toward tail -->
-  <polygon points="200,298 189,322 211,322" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,298 194,316 206,316" fill="#FF6347" stroke="none"/>
+  <!-- Spike 8 - getting smaller -->
+  <polygon points="200,258 188,286 212,286" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,258 193,280 207,280" fill="#FF6347" stroke="none"/>
 
-  <!-- Spike 9 - smallest -->
-  <polygon points="200,320 191,342 209,342" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
-  <polygon points="200,320 195,338 205,338" fill="#FF6347" stroke="none"/>
+  <!-- Spike 9 -->
+  <polygon points="200,284 189,310 211,310" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,284 194,304 206,304" fill="#FF6347" stroke="none"/>
+
+  <!-- Spike 10 - smallest -->
+  <polygon points="200,308 191,332 209,332" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,308 195,328 205,328" fill="#FF6347" stroke="none"/>
+
+  <!-- Spike 11 - tiny tail spike -->
+  <polygon points="200,330 192,350 208,350" fill="#FF4500" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="200,330 196,346 204,346" fill="#FF6347" stroke="none"/>
 </svg>

@@ -1,34 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Giraffe Body - longer torso with spots -->
-  <!-- Main torso - taller/longer than others -->
-  <ellipse cx="200" cy="240" rx="120" ry="160" fill="#F5C858" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Giraffe Body - slightly taller/thinner with spots -->
+  <!-- Main torso -->
+  <ellipse cx="200" cy="268" rx="90" ry="118" fill="#F5C858" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Left shoulder -->
-  <ellipse cx="100" cy="140" rx="48" ry="44" fill="#F5C858" stroke="#222" stroke-width="3.5"/>
+  <ellipse cx="122" cy="178" rx="35" ry="30" fill="#F5C858" stroke="#222" stroke-width="3.5"/>
   <!-- Right shoulder -->
-  <ellipse cx="300" cy="140" rx="48" ry="44" fill="#F5C858" stroke="#222" stroke-width="3.5"/>
-  <!-- Neck connector -->
-  <rect x="145" y="75" width="110" height="55" rx="14" fill="#F5C858" stroke="none"/>
+  <ellipse cx="278" cy="178" rx="35" ry="30" fill="#F5C858" stroke="#222" stroke-width="3.5"/>
   <!-- Torso overlay to clean joins -->
-  <ellipse cx="200" cy="240" rx="117" ry="157" fill="#F5C858" stroke="none"/>
+  <ellipse cx="200" cy="268" rx="87" ry="115" fill="#F5C858" stroke="none"/>
   <!-- Belly - lighter yellow -->
-  <ellipse cx="200" cy="270" rx="80" ry="110" fill="#FBE08A" stroke="none"/>
+  <ellipse cx="200" cy="285" rx="60" ry="85" fill="#FBE08A" stroke="none"/>
   <!-- Giraffe spots - scattered across body -->
-  <ellipse cx="130" cy="175" rx="18" ry="15" fill="#C8A020" stroke="none" transform="rotate(-10 130 175)"/>
-  <ellipse cx="265" cy="170" rx="16" ry="14" fill="#C8A020" stroke="none" transform="rotate(8 265 170)"/>
-  <ellipse cx="150" cy="235" rx="15" ry="17" fill="#C8A020" stroke="none" transform="rotate(5 150 235)"/>
-  <ellipse cx="255" cy="240" rx="17" ry="14" fill="#C8A020" stroke="none" transform="rotate(-7 255 240)"/>
-  <ellipse cx="115" cy="290" rx="14" ry="16" fill="#C8A020" stroke="none" transform="rotate(12 115 290)"/>
-  <ellipse cx="285" cy="300" rx="15" ry="13" fill="#C8A020" stroke="none" transform="rotate(-5 285 300)"/>
-  <ellipse cx="195" cy="310" rx="16" ry="14" fill="#C8A020" stroke="none" transform="rotate(3 195 310)"/>
-  <ellipse cx="160" cy="340" rx="13" ry="15" fill="#C8A020" stroke="none" transform="rotate(-8 160 340)"/>
-  <ellipse cx="240" cy="345" rx="14" ry="12" fill="#C8A020" stroke="none" transform="rotate(6 240 345)"/>
-  <ellipse cx="200" cy="160" rx="14" ry="12" fill="#C8A020" stroke="none"/>
-  <!-- Spot on shoulders -->
-  <ellipse cx="90" cy="130" rx="12" ry="10" fill="#C8A020" stroke="none" transform="rotate(-15 90 130)"/>
-  <ellipse cx="310" cy="130" rx="11" ry="10" fill="#C8A020" stroke="none" transform="rotate(10 310 130)"/>
+  <ellipse cx="145" cy="210" rx="14" ry="12" fill="#C8A020" stroke="none" transform="rotate(-10 145 210)"/>
+  <ellipse cx="252" cy="205" rx="13" ry="11" fill="#C8A020" stroke="none" transform="rotate(8 252 205)"/>
+  <ellipse cx="155" cy="268" rx="12" ry="14" fill="#C8A020" stroke="none" transform="rotate(5 155 268)"/>
+  <ellipse cx="248" cy="272" rx="14" ry="11" fill="#C8A020" stroke="none" transform="rotate(-7 248 272)"/>
+  <ellipse cx="132" cy="310" rx="11" ry="13" fill="#C8A020" stroke="none" transform="rotate(12 132 310)"/>
+  <ellipse cx="268" cy="318" rx="12" ry="10" fill="#C8A020" stroke="none" transform="rotate(-5 268 318)"/>
+  <ellipse cx="198" cy="330" rx="13" ry="11" fill="#C8A020" stroke="none" transform="rotate(3 198 330)"/>
+  <ellipse cx="168" cy="355" rx="10" ry="12" fill="#C8A020" stroke="none" transform="rotate(-8 168 355)"/>
+  <ellipse cx="232" cy="358" rx="11" ry="9" fill="#C8A020" stroke="none" transform="rotate(6 232 358)"/>
+  <ellipse cx="200" cy="192" rx="11" ry="10" fill="#C8A020" stroke="none"/>
+  <!-- Spots on shoulders -->
+  <ellipse cx="115" cy="172" rx="9" ry="8" fill="#C8A020" stroke="none" transform="rotate(-15 115 172)"/>
+  <ellipse cx="285" cy="172" rx="8" ry="7" fill="#C8A020" stroke="none" transform="rotate(10 285 172)"/>
   <!-- Re-draw main outline -->
-  <ellipse cx="200" cy="240" rx="120" ry="160" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="268" rx="90" ry="118" fill="none" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Shoulder outlines -->
-  <path d="M100 96 Q55 115 58 155 Q60 185 75 185" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M300 96 Q345 115 342 155 Q340 185 325 185" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M124 149 Q92 162 94 192 Q96 215 108 217" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M276 149 Q308 162 306 192 Q304 215 292 217" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
 </svg>

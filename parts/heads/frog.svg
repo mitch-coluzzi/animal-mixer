@@ -36,6 +36,4 @@
   <circle cx="218" cy="108" r="6" fill="#3A9940" opacity="0.4"/>
   <circle cx="200" cy="102" r="4.5" fill="#3A9940" opacity="0.3"/>
 
-  <!-- Neck stub -->
-  <path d="M175,218 L170,415 C178,422 190,425 200,425 C210,425 222,422 230,415 L225,218Z" fill="#5DBB63" stroke="#222" stroke-width="3"/>
 </svg>

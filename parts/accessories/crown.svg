@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
-  <!-- Golden Crown with jewels -->
+  <!-- Golden Crown with jewels - sitting on top of head y=15 to y=55 -->
   <!-- Crown body with wobbly points -->
-  <polygon points="130,105 140,60 170,90 200,45 230,90 260,60 270,105"
+  <polygon points="130,55 142,18 170,42 200,15 230,42 258,18 270,55"
            fill="#FFD700" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
   <!-- Crown base band -->
-  <rect x="128" y="95" width="144" height="18" rx="3" fill="#FFC200" stroke="#222" stroke-width="3.5"/>
+  <rect x="128" y="45" width="144" height="16" rx="3" fill="#FFC200" stroke="#222" stroke-width="3.5"/>
   <!-- Red gems on points -->
-  <circle cx="200" cy="55" r="6" fill="#FF0000" stroke="#222" stroke-width="2"/>
-  <circle cx="140" cy="68" r="5" fill="#FF0000" stroke="#222" stroke-width="2"/>
-  <circle cx="260" cy="68" r="5" fill="#FF0000" stroke="#222" stroke-width="2"/>
-  <!-- Gems on band -->
-  <circle cx="170" cy="104" r="4.5" fill="#3399FF" stroke="#222" stroke-width="1.5"/>
-  <circle cx="200" cy="104" r="4.5" fill="#FF0000" stroke="#222" stroke-width="1.5"/>
-  <circle cx="230" cy="104" r="4.5" fill="#3399FF" stroke="#222" stroke-width="1.5"/>
+  <circle cx="200" cy="22" r="6" fill="#FF0000" stroke="#222" stroke-width="2"/>
+  <circle cx="142" cy="26" r="5" fill="#FF0000" stroke="#222" stroke-width="2"/>
+  <circle cx="258" cy="26" r="5" fill="#FF0000" stroke="#222" stroke-width="2"/>
+  <!-- Blue gems on band -->
+  <circle cx="160" cy="53" r="4.5" fill="#3399FF" stroke="#222" stroke-width="1.5"/>
+  <circle cx="200" cy="53" r="4.5" fill="#FF0000" stroke="#222" stroke-width="1.5"/>
+  <circle cx="240" cy="53" r="4.5" fill="#3399FF" stroke="#222" stroke-width="1.5"/>
   <!-- Sparkle dots -->
-  <circle cx="155" cy="80" r="2" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="245" cy="80" r="2" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="200" cy="78" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="155" cy="34" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="245" cy="34" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="200" cy="36" r="2" fill="#FFFFFF" opacity="0.8"/>
 </svg>
