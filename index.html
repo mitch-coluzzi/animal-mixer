@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animal Mixer!</title>
+  <title>Lillie's Animal Mixer!</title>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -410,7 +410,7 @@
 
   <!-- Header -->
   <div class="header">
-    <div class="logo">Animal <span>Mixer!</span></div>
+    <div class="logo">Lillie's Animal <span>Mixer!</span></div>
     <button class="gallery-btn" onclick="openGallery()" aria-label="Gallery">
       <svg viewBox="0 0 24 24"><path d="M6 2h12a2 2 0 012 2v1H4V4a2 2 0 012-2zm14 4H4a1 1 0 00-1 1v13a2 2 0 002 2h14a2 2 0 002-2V7a1 1 0 00-1-1zM7 17l3-4 2 2.5L15 12l4 5H7z"/></svg>
     </button>
@@ -507,9 +507,9 @@
     /* ===== Config & State ===== */
 
     // Supabase client (requires config.js to set window.SUPABASE_URL and window.SUPABASE_ANON_KEY)
-    let supabase = null;
+    let sbClient = null;
     if (window.SUPABASE_URL && window.SUPABASE_ANON_KEY) {
-      supabase = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+      sbClient = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
     }
 
     const PARTS = {
@@ -847,7 +847,7 @@
       const label = skip ? '' : document.getElementById('saveNameInput').value.trim();
       const comboName = getComboName();
 
-      if (!supabase || !pendingBlob) {
+      if (!sbClient || !pendingBlob) {
         console.warn('Supabase not configured or no image captured');
         showSuccess();
         return;
@@ -856,18 +856,18 @@
       try {
         // Upload PNG
         const fileName = `${crypto.randomUUID()}.png`;
-        const { error: uploadError } = await supabase.storage
+        const { error: uploadError } = await sbClient.storage
           .from('animal-mixer')
           .upload(fileName, pendingBlob, { contentType: 'image/png' });
 
         if (uploadError) throw uploadError;
 
-        const { data: urlData } = supabase.storage
+        const { data: urlData } = sbClient.storage
           .from('animal-mixer')
           .getPublicUrl(fileName);
 
         // Insert DB row
-        const { error: dbError } = await supabase
+        const { error: dbError } = await sbClient
           .from('animal_mixer_saves')
           .insert({
             image_url: urlData.publicUrl,
@@ -907,13 +907,13 @@
       const grid = document.getElementById('galleryGrid');
       grid.innerHTML = '<p style="text-align:center;color:#999;padding:40px">Loading...</p>';
 
-      if (!supabase) {
+      if (!sbClient) {
         grid.innerHTML = '<p style="text-align:center;color:#999;padding:40px">Gallery not available — Supabase not configured</p>';
         return;
       }
 
       try {
-        const { data, error } = await supabase
+        const { data, error } = await sbClient
           .from('animal_mixer_saves')
           .select('id, image_url, label, combo_name, created_at')
           .order('created_at', { ascending: false })
