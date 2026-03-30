@@ -239,6 +239,7 @@
     .action-btn:active { transform: scale(0.93); }
     .action-btn .icon { font-size: 24px; }
     .action-btn.mix { background: #FFE566; }
+    .action-btn.clear { background: #E0E0E0; }
     .action-btn.save { background: #FFB0C8; }
     .action-btn.photo { background: #B8F0C8; }
 
@@ -461,6 +462,10 @@
         <button class="action-btn mix" onclick="randomize()">
           <span class="icon">&#x1F3B2;</span>
           <span>Mix!</span>
+        </button>
+        <button class="action-btn clear" onclick="clearAll()">
+          <span class="icon">&#x1F504;</span>
+          <span>Clear</span>
         </button>
         <button class="action-btn save" onclick="startSave()">
           <span class="icon">&#x1F4BE;</span>
@@ -785,6 +790,25 @@
     }
 
     /* ===== Randomize ===== */
+    function clearAll() {
+      state.base = null;
+      state.head = null;
+      state.body = null;
+      state.legs = null;
+      state.tail = null;
+      state.accessories = [];
+      state.background = 'sky';
+
+      // Deselect everything in UI
+      document.querySelectorAll('.base-btn').forEach(b => b.classList.remove('selected'));
+      document.querySelectorAll('.part-tile').forEach(t => t.classList.remove('selected'));
+      document.querySelectorAll('.bg-swatch').forEach((s, i) => {
+        s.classList.toggle('selected', BACKGROUNDS[i].name === 'sky');
+      });
+
+      render();
+    }
+
     function randomize() {
       const pick = arr => arr[Math.floor(Math.random() * arr.length)];
       state.head = pick(PARTS.heads);
