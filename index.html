@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Mixer!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="/mixer/config.js"></script>
+  <style>
+    /* ===== Reset & Base ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', 'Arial Rounded MT Bold', sans-serif;
+      background: #FFF8F0;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    /* ===== Header ===== */
+    .header {
+      background: #FF6B35;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      position: relative;
+      z-index: 100;
+    }
+    .header .logo {
+      font-family: 'Fredoka One', cursive;
+      font-size: 28px;
+      color: white;
+    }
+    .header .logo span { color: #FFE566; }
+    .header .gallery-btn {
+      width: 44px; height: 44px;
+      background: rgba(255,255,255,0.2);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .header .gallery-btn:active { transform: scale(0.93); }
+    .header .gallery-btn svg { width: 26px; height: 26px; fill: white; }
+
+    /* ===== Main Layout ===== */
+    .main {
+      display: flex;
+      height: calc(100vh - 56px);
+    }
+
+    /* ===== Left Sidebar ===== */
+    .sidebar {
+      width: 180px;
+      min-width: 180px;
+      background: #FFF3E8;
+      border-right: 2px solid #FFD4A8;
+      overflow-y: auto;
+      padding: 8px;
+    }
+    .sidebar-section { margin-bottom: 6px; }
+    .sidebar-section-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 4px;
+      cursor: pointer;
+      font-family: 'Fredoka One', cursive;
+      font-size: 13px;
+      color: #FF6B35;
+    }
+    .sidebar-section-header svg { width: 18px; height: 18px; }
+    .sidebar-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      padding: 2px;
+    }
+    .part-tile {
+      width: 52px; height: 52px;
+      border-radius: 12px;
+      background: #FFF3E8;
+      border: 2.5px solid #FFD4A8;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: transform 0.1s, border-color 0.1s, background 0.1s;
+    }
+    .part-tile:hover { transform: scale(1.06); border-color: #FF6B35; }
+    .part-tile:active { transform: scale(0.93); }
+    .part-tile.selected {
+      border-color: #FF6B35;
+      background: #FFE0CC;
+      box-shadow: 0 0 0 2px #FF6B35;
+    }
+    .part-tile img, .part-tile svg {
+      width: 36px; height: 36px;
+      object-fit: contain;
+    }
+    .part-tile .check-badge {
+      position: absolute;
+      top: 2px; right: 2px;
+      width: 14px; height: 14px;
+      background: #FF6B35;
+      border-radius: 50%;
+      color: white;
+      font-size: 9px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+    .part-tile.selected .check-badge { display: flex; }
+
+    /* ===== Stage Area ===== */
+    .stage {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px;
+      overflow-y: auto;
+      gap: 10px;
+    }
+
+    /* Base animal picker */
+    .base-picker {
+      display: flex;
+      gap: 10px;
+    }
+    .base-btn {
+      width: 64px; height: 64px;
+      border-radius: 16px;
+      border: 3px solid #FFD4A8;
+      background: #FFF3E8;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.1s, border-color 0.1s;
+    }
+    .base-btn:hover { border-color: #FF6B35; }
+    .base-btn:active { transform: scale(0.93); }
+    .base-btn.selected {
+      border-color: #FF6B35;
+      box-shadow: 0 0 0 2px #FF6B35;
+    }
+    .base-btn img, .base-btn svg {
+      width: 48px; height: 48px;
+      object-fit: contain;
+    }
+
+    /* Background selector */
+    .bg-selector {
+      display: flex;
+      gap: 8px;
+    }
+    .bg-swatch {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    .bg-swatch:hover { transform: scale(1.15); }
+    .bg-swatch:active { transform: scale(0.93); }
+    .bg-swatch.selected { border-color: #FF6B35; box-shadow: 0 0 0 2px #FF6B35; }
+
+    /* Canvas */
+    .canvas-wrapper {
+      position: relative;
+      width: 400px;
+      height: 500px;
+      border-radius: 20px;
+      border: 3px solid #FFD700;
+      overflow: hidden;
+      background: #87CEEB;
+      flex-shrink: 0;
+    }
+    .canvas-wrapper .layer {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+    .canvas-wrapper .layer img {
+      width: 100%; height: 100%;
+      object-fit: contain;
+    }
+
+    /* Text label */
+    .combo-label {
+      background: #FFE566;
+      border-radius: 12px;
+      padding: 6px 20px;
+      font-family: 'Fredoka One', cursive;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      min-width: 200px;
+      border: none;
+      outline: none;
+      color: #333;
+    }
+
+    /* Action buttons */
+    .action-buttons {
+      display: flex;
+      gap: 12px;
+    }
+    .action-btn {
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      border: 3px solid rgba(0,0,0,0.1);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Fredoka One', cursive;
+      font-size: 10px;
+      color: #333;
+      gap: 2px;
+      transition: transform 0.1s;
+    }
+    .action-btn:active { transform: scale(0.93); }
+    .action-btn .icon { font-size: 24px; }
+    .action-btn.mix { background: #FFE566; }
+    .action-btn.save { background: #FFB0C8; }
+    .action-btn.photo { background: #B8F0C8; }
+
+    /* ===== Gallery Overlay ===== */
+    .gallery-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    .gallery-overlay.open { display: flex; }
+    .gallery-panel {
+      background: white;
+      border-radius: 20px;
+      width: 90vw;
+      max-width: 800px;
+      height: 80vh;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .gallery-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .gallery-header h2 {
+      font-family: 'Fredoka One', cursive;
+      color: #FF6B35;
+      font-size: 24px;
+    }
+    .gallery-close {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: #FFE0CC;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .gallery-close:active { transform: scale(0.93); }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .gallery-card {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 2px solid #FFD4A8;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    .gallery-card:hover { transform: scale(1.03); }
+    .gallery-card img {
+      width: 100%;
+      aspect-ratio: 4/5;
+      object-fit: cover;
+    }
+    .gallery-card .card-info {
+      padding: 6px 8px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .gallery-card .card-label { color: #333; }
+    .gallery-card .card-date { color: #999; font-size: 10px; }
+
+    /* ===== Save Modal ===== */
+    .save-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 300;
+      align-items: center;
+      justify-content: center;
+    }
+    .save-modal.open { display: flex; }
+    .save-modal-panel {
+      background: white;
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+      max-width: 360px;
+      width: 90vw;
+    }
+    .save-modal-panel h3 {
+      font-family: 'Fredoka One', cursive;
+      color: #FF6B35;
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+    .save-modal-panel input {
+      width: 100%;
+      font-size: 24px;
+      font-family: 'Fredoka One', cursive;
+      padding: 10px 16px;
+      border-radius: 12px;
+      border: 3px solid #FFD4A8;
+      outline: none;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .save-modal-panel input:focus { border-color: #FF6B35; }
+    .save-modal-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .save-modal-actions button {
+      padding: 10px 24px;
+      border-radius: 12px;
+      border: none;
+      font-family: 'Fredoka One', cursive;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .save-modal-actions button:active { transform: scale(0.93); }
+    .save-modal-actions .btn-save { background: #FF6B35; color: white; }
+    .save-modal-actions .btn-skip { background: #FFE0CC; color: #FF6B35; }
+
+    /* ===== Success Animation ===== */
+    .success-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(255,107,53,0.85);
+      z-index: 400;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .success-overlay.show { display: flex; }
+    .success-overlay .star { font-size: 80px; animation: popIn 0.4s ease; }
+    .success-overlay .saved-text {
+      font-family: 'Fredoka One', cursive;
+      font-size: 40px;
+      color: white;
+      margin-top: 10px;
+      animation: popIn 0.4s ease 0.1s both;
+    }
+    @keyframes popIn {
+      0% { transform: scale(0); opacity: 0; }
+      70% { transform: scale(1.2); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 600px) {
+      .canvas-wrapper {
+        transform: scale(0.75);
+        transform-origin: top center;
+      }
+      .sidebar {
+        width: 140px;
+        min-width: 140px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">Animal <span>Mixer!</span></div>
+    <button class="gallery-btn" onclick="openGallery()" aria-label="Gallery">
+      <svg viewBox="0 0 24 24"><path d="M6 2h12a2 2 0 012 2v1H4V4a2 2 0 012-2zm14 4H4a1 1 0 00-1 1v13a2 2 0 002 2h14a2 2 0 002-2V7a1 1 0 00-1-1zM7 17l3-4 2 2.5L15 12l4 5H7z"/></svg>
+    </button>
+  </div>
+
+  <!-- Main Layout -->
+  <div class="main">
+
+    <!-- Left Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Right Stage -->
+    <div class="stage">
+
+      <!-- Base Animal Picker -->
+      <div class="base-picker" id="basePicker">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- Background Selector -->
+      <div class="bg-selector" id="bgSelector">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- Canvas -->
+      <div class="canvas-wrapper" id="canvas">
+        <div class="layer" id="layer-bg"></div>
+        <div class="layer" id="layer-wings"></div>
+        <div class="layer" id="layer-body"></div>
+        <div class="layer" id="layer-legs"></div>
+        <div class="layer" id="layer-tail"></div>
+        <div class="layer" id="layer-head"></div>
+        <div class="layer" id="layer-spikes"></div>
+        <div class="layer" id="layer-accessories"></div>
+      </div>
+
+      <!-- Combo Name Label -->
+      <div class="combo-label" id="comboLabel" contenteditable="true" onclick="this.focus()">
+        Pick an animal!
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <button class="action-btn mix" onclick="randomize()">
+          <span class="icon">&#x1F3B2;</span>
+          <span>Mix!</span>
+        </button>
+        <button class="action-btn save" onclick="startSave()">
+          <span class="icon">&#x1F4BE;</span>
+          <span>Save</span>
+        </button>
+        <button class="action-btn photo" onclick="takePhoto()">
+          <span class="icon">&#x1F4F7;</span>
+          <span>Photo</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Overlay -->
+  <div class="gallery-overlay" id="galleryOverlay">
+    <div class="gallery-panel">
+      <div class="gallery-header">
+        <h2>Our Creations!</h2>
+        <button class="gallery-close" onclick="closeGallery()">&times;</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Save Modal -->
+  <div class="save-modal" id="saveModal">
+    <div class="save-modal-panel">
+      <h3>Give your animal a name!</h3>
+      <input type="text" id="saveNameInput" placeholder="Type a name..." maxlength="40">
+      <div class="save-modal-actions">
+        <button class="btn-save" onclick="confirmSave()">Save it!</button>
+        <button class="btn-skip" onclick="confirmSave(true)">Skip</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success Overlay -->
+  <div class="success-overlay" id="successOverlay">
+    <div class="star">&#11088;</div>
+    <div class="saved-text">Saved!</div>
+  </div>
+
+  <script>
+    /* ===== Config & State ===== */
+
+    // Supabase client (requires config.js to set window.SUPABASE_URL and window.SUPABASE_ANON_KEY)
+    let supabase = null;
+    if (window.SUPABASE_URL && window.SUPABASE_ANON_KEY) {
+      supabase = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+    }
+
+    const PARTS = {
+      heads:       ['tiger','elephant','monkey','frog','lion','deer'],
+      bodies:      ['tiger','elephant','bear','giraffe','panda'],
+      legs:        ['tiger','elephant','flamingo','frog','lion','duck'],
+      tails:       ['tiger','peacock','lion','fish','snake','horse'],
+      accessories: ['party_hat','crown','bow_tie','glasses','bow','top_hat',
+                    'elephant_trunk','frog_tongue','unicorn_horn','dragon_spikes','wings']
+    };
+
+    const BACKGROUNDS = [
+      { name: 'sky',    color: '#87CEEB' },
+      { name: 'jungle', color: '#4CAF50' },
+      { name: 'desert', color: '#F4A460' },
+      { name: 'snowy',  color: '#B0C4DE' },
+      { name: 'night',  color: '#1A1A3E' },
+      { name: 'candy',  color: '#FF8FAB' },
+    ];
+
+    const BASE_ANIMALS = ['tiger','elephant','frog','lion','bear'];
+
+    // Current mix state
+    const state = {
+      base: null,
+      head: null,
+      body: null,
+      legs: null,
+      tail: null,
+      accessories: [],
+      background: 'sky'
+    };
+
+    let pendingBlob = null; // PNG blob waiting to be saved
+
+    /* ===== Part Path Helper ===== */
+    function partPath(category, name) {
+      return `parts/${category}/${name}.svg`;
+    }
+    function bgPath(name) {
+      return `backgrounds/${name}.svg`;
+    }
+
+    /* ===== Combo Name Logic ===== */
+    function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+    function getComboName() {
+      if (!state.head) return 'Pick an animal!';
+      const counts = {};
+      ['head','body','legs','tail'].forEach(p => {
+        if (state[p]) counts[state[p]] = (counts[state[p]] || 0) + 1;
+      });
+      const animals = Object.keys(counts);
+      let name;
+      if (animals.length === 1) {
+        name = `Totally ${capitalize(animals[0])}!`;
+      } else if (animals.length === 2) {
+        const [a, b] = animals;
+        name = `The ${capitalize(a)}-${capitalize(b)}!`;
+      } else {
+        const sorted = animals.sort((a,b) => counts[b] - counts[a]);
+        name = `The Wacky ${capitalize(sorted[0])}!`;
+      }
+
+      // Accessory suffix
+      if (state.accessories.length > 0) {
+        const suffixes = {
+          unicorn_horn: ' of Magic',
+          dragon_spikes: ' of Fire',
+          wings: ' Takes Flight',
+          crown: ' Royale',
+          party_hat: ' Party Animal'
+        };
+        const acc = state.accessories.find(a => suffixes[a]);
+        name += acc ? suffixes[acc] : ' Supreme';
+      }
+      return name;
+    }
+
+    /* ===== Render Canvas ===== */
+    function render() {
+      // Background
+      const bgLayer = document.getElementById('layer-bg');
+      bgLayer.innerHTML = '';
+      const bgInfo = BACKGROUNDS.find(b => b.name === state.background);
+      const canvas = document.getElementById('canvas');
+      canvas.style.background = bgInfo ? bgInfo.color : '#87CEEB';
+      if (state.background) {
+        bgLayer.innerHTML = `<img src="${bgPath(state.background)}" alt="" onerror="this.style.display='none'">`;
+      }
+
+      // Body parts
+      const partLayers = {
+        head: 'layer-head',
+        body: 'layer-body',
+        legs: 'layer-legs',
+        tail: 'layer-tail'
+      };
+      for (const [part, layerId] of Object.entries(partLayers)) {
+        const el = document.getElementById(layerId);
+        el.innerHTML = '';
+        if (state[part]) {
+          el.innerHTML = `<img src="${partPath(part === 'head' ? 'heads' : part === 'body' ? 'bodies' : part === 'legs' ? 'legs' : 'tails', state[part])}" alt="" onerror="this.style.display='none'">`;
+        }
+      }
+
+      // Accessories — split wings and dragon_spikes into their own layers
+      document.getElementById('layer-wings').innerHTML = '';
+      document.getElementById('layer-spikes').innerHTML = '';
+      document.getElementById('layer-accessories').innerHTML = '';
+
+      state.accessories.forEach(acc => {
+        const img = `<img src="${partPath('accessories', acc)}" alt="" onerror="this.style.display='none'">`;
+        if (acc === 'wings') {
+          document.getElementById('layer-wings').innerHTML = img;
+        } else if (acc === 'dragon_spikes') {
+          document.getElementById('layer-spikes').innerHTML = img;
+        } else {
+          document.getElementById('layer-accessories').innerHTML += img;
+        }
+      });
+
+      // Update combo name
+      document.getElementById('comboLabel').textContent = getComboName();
+    }
+
+    /* ===== Build Sidebar ===== */
+    function buildSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.innerHTML = '';
+
+      const categories = [
+        { key: 'heads',       label: 'Head',        stateKey: 'head' },
+        { key: 'bodies',      label: 'Body',        stateKey: 'body' },
+        { key: 'legs',        label: 'Legs',        stateKey: 'legs' },
+        { key: 'tails',       label: 'Tail',        stateKey: 'tail' },
+        { key: 'accessories', label: 'Accessories', stateKey: 'accessories' },
+      ];
+
+      categories.forEach(cat => {
+        const section = document.createElement('div');
+        section.className = 'sidebar-section';
+
+        const header = document.createElement('div');
+        header.className = 'sidebar-section-header';
+        header.textContent = cat.label;
+        section.appendChild(header);
+
+        const grid = document.createElement('div');
+        grid.className = 'sidebar-grid';
+
+        PARTS[cat.key].forEach(name => {
+          const tile = document.createElement('div');
+          tile.className = 'part-tile';
+          tile.dataset.category = cat.key;
+          tile.dataset.name = name;
+
+          const img = document.createElement('img');
+          img.src = partPath(cat.key, name);
+          img.alt = name.replace(/_/g, ' ');
+          img.onerror = function() {
+            // Fallback: show text if SVG not found
+            this.style.display = 'none';
+            tile.innerHTML += `<span style="font-size:9px;text-align:center;color:#999">${name.replace(/_/g, ' ')}</span>`;
+          };
+          tile.appendChild(img);
+
+          // Checkmark badge for accessories
+          if (cat.key === 'accessories') {
+            const badge = document.createElement('div');
+            badge.className = 'check-badge';
+            badge.textContent = '\u2713';
+            tile.appendChild(badge);
+          }
+
+          tile.addEventListener('click', () => selectPart(cat, name, tile));
+          grid.appendChild(tile);
+        });
+
+        section.appendChild(grid);
+        sidebar.appendChild(section);
+      });
+    }
+
+    function selectPart(cat, name, tile) {
+      if (cat.key === 'accessories') {
+        // Toggle accessory
+        const idx = state.accessories.indexOf(name);
+        if (idx >= 0) {
+          state.accessories.splice(idx, 1);
+          tile.classList.remove('selected');
+        } else {
+          state.accessories.push(name);
+          tile.classList.add('selected');
+        }
+      } else {
+        // Single select — deselect siblings
+        state[cat.stateKey] = name;
+        tile.parentElement.querySelectorAll('.part-tile').forEach(t => t.classList.remove('selected'));
+        tile.classList.add('selected');
+      }
+      render();
+    }
+
+    /* ===== Build Base Picker ===== */
+    function buildBasePicker() {
+      const picker = document.getElementById('basePicker');
+      picker.innerHTML = '';
+      BASE_ANIMALS.forEach(animal => {
+        const btn = document.createElement('button');
+        btn.className = 'base-btn';
+        btn.dataset.animal = animal;
+        btn.innerHTML = `<img src="parts/bodies/${animal}.svg" alt="${animal}" onerror="this.outerHTML='<span style=\\'font-size:11px\\'>${capitalize(animal)}</span>'">`;
+        btn.addEventListener('click', () => selectBase(animal));
+        picker.appendChild(btn);
+      });
+    }
+
+    function selectBase(animal) {
+      state.base = animal;
+      state.head = animal;
+      state.body = animal;
+      state.legs = animal;
+      state.tail = animal;
+      state.accessories = [];
+
+      // Update base picker selection
+      document.querySelectorAll('.base-btn').forEach(b => b.classList.toggle('selected', b.dataset.animal === animal));
+
+      // Update sidebar selections
+      document.querySelectorAll('.part-tile').forEach(t => {
+        if (t.dataset.category === 'accessories') {
+          t.classList.remove('selected');
+        } else {
+          const catMap = { heads: 'head', bodies: 'body', legs: 'legs', tails: 'tail' };
+          const stateKey = catMap[t.dataset.category];
+          t.classList.toggle('selected', t.dataset.name === animal && state[stateKey] === animal);
+        }
+      });
+
+      render();
+    }
+
+    /* ===== Build Background Selector ===== */
+    function buildBgSelector() {
+      const selector = document.getElementById('bgSelector');
+      selector.innerHTML = '';
+      BACKGROUNDS.forEach(bg => {
+        const swatch = document.createElement('div');
+        swatch.className = 'bg-swatch' + (bg.name === state.background ? ' selected' : '');
+        swatch.style.background = bg.color;
+        swatch.addEventListener('click', () => {
+          state.background = bg.name;
+          selector.querySelectorAll('.bg-swatch').forEach(s => s.classList.remove('selected'));
+          swatch.classList.add('selected');
+          render();
+        });
+        selector.appendChild(swatch);
+      });
+    }
+
+    /* ===== Randomize ===== */
+    function randomize() {
+      const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+      state.head = pick(PARTS.heads);
+      state.body = pick(PARTS.bodies);
+      state.legs = pick(PARTS.legs);
+      state.tail = pick(PARTS.tails);
+      state.base = null;
+      state.background = pick(BACKGROUNDS).name;
+
+      // Random 0-3 accessories
+      state.accessories = [];
+      const shuffled = [...PARTS.accessories].sort(() => Math.random() - 0.5);
+      const count = Math.floor(Math.random() * 4);
+      state.accessories = shuffled.slice(0, count);
+
+      // Update all UI selections
+      document.querySelectorAll('.base-btn').forEach(b => b.classList.remove('selected'));
+      document.querySelectorAll('.part-tile').forEach(t => {
+        if (t.dataset.category === 'accessories') {
+          t.classList.toggle('selected', state.accessories.includes(t.dataset.name));
+        } else {
+          const catMap = { heads: 'head', bodies: 'body', legs: 'legs', tails: 'tail' };
+          t.classList.toggle('selected', state[catMap[t.dataset.category]] === t.dataset.name);
+        }
+      });
+      document.querySelectorAll('.bg-swatch').forEach((s, i) => {
+        s.classList.toggle('selected', BACKGROUNDS[i].name === state.background);
+      });
+
+      render();
+    }
+
+    /* ===== Save / Photo Flow ===== */
+    async function captureCanvas() {
+      const wrapper = document.getElementById('canvas');
+      const label = document.getElementById('comboLabel');
+      // Create a temporary container with canvas + label for capture
+      const container = document.createElement('div');
+      container.style.cssText = 'position:fixed;top:-9999px;left:-9999px;';
+      const clonedCanvas = wrapper.cloneNode(true);
+      const clonedLabel = label.cloneNode(true);
+      clonedLabel.contentEditable = 'false';
+      container.appendChild(clonedCanvas);
+      container.appendChild(clonedLabel);
+      document.body.appendChild(container);
+
+      const canvas2d = await html2canvas(container, { useCORS: true, backgroundColor: null });
+      document.body.removeChild(container);
+
+      return new Promise(resolve => canvas2d.toBlob(resolve, 'image/png'));
+    }
+
+    async function startSave() {
+      pendingBlob = await captureCanvas();
+      const nameInput = document.getElementById('saveNameInput');
+      nameInput.value = getComboName();
+      document.getElementById('saveModal').classList.add('open');
+      nameInput.focus();
+      nameInput.select();
+    }
+
+    async function takePhoto() {
+      pendingBlob = await captureCanvas();
+      const nameInput = document.getElementById('saveNameInput');
+      nameInput.value = getComboName();
+      document.getElementById('saveModal').classList.add('open');
+      nameInput.focus();
+      nameInput.select();
+    }
+
+    async function confirmSave(skip) {
+      document.getElementById('saveModal').classList.remove('open');
+      const label = skip ? '' : document.getElementById('saveNameInput').value.trim();
+      const comboName = getComboName();
+
+      if (!supabase || !pendingBlob) {
+        console.warn('Supabase not configured or no image captured');
+        showSuccess();
+        return;
+      }
+
+      try {
+        // Upload PNG
+        const fileName = `${crypto.randomUUID()}.png`;
+        const { error: uploadError } = await supabase.storage
+          .from('animal-mixer')
+          .upload(fileName, pendingBlob, { contentType: 'image/png' });
+
+        if (uploadError) throw uploadError;
+
+        const { data: urlData } = supabase.storage
+          .from('animal-mixer')
+          .getPublicUrl(fileName);
+
+        // Insert DB row
+        const { error: dbError } = await supabase
+          .from('animal_mixer_saves')
+          .insert({
+            image_url: urlData.publicUrl,
+            label: label || comboName,
+            combo_name: comboName,
+            state: { ...state }
+          });
+
+        if (dbError) throw dbError;
+      } catch (err) {
+        console.error('Save failed:', err);
+      }
+
+      showSuccess();
+    }
+
+    function showSuccess() {
+      const overlay = document.getElementById('successOverlay');
+      overlay.classList.add('show');
+      setTimeout(() => {
+        overlay.classList.remove('show');
+        openGallery();
+      }, 1500);
+    }
+
+    /* ===== Gallery ===== */
+    async function openGallery() {
+      document.getElementById('galleryOverlay').classList.add('open');
+      await loadGallery();
+    }
+
+    function closeGallery() {
+      document.getElementById('galleryOverlay').classList.remove('open');
+    }
+
+    async function loadGallery() {
+      const grid = document.getElementById('galleryGrid');
+      grid.innerHTML = '<p style="text-align:center;color:#999;padding:40px">Loading...</p>';
+
+      if (!supabase) {
+        grid.innerHTML = '<p style="text-align:center;color:#999;padding:40px">Gallery not available — Supabase not configured</p>';
+        return;
+      }
+
+      try {
+        const { data, error } = await supabase
+          .from('animal_mixer_saves')
+          .select('id, image_url, label, combo_name, created_at')
+          .order('created_at', { ascending: false })
+          .limit(50);
+
+        if (error) throw error;
+
+        if (!data || data.length === 0) {
+          grid.innerHTML = '<p style="text-align:center;color:#999;padding:40px">No creations yet! Make one!</p>';
+          return;
+        }
+
+        grid.innerHTML = '';
+        data.forEach(item => {
+          const card = document.createElement('div');
+          card.className = 'gallery-card';
+          card.innerHTML = `
+            <img src="${item.image_url}" alt="${item.label || item.combo_name}" loading="lazy">
+            <div class="card-info">
+              <div class="card-label">${item.label || item.combo_name}</div>
+              <div class="card-date">${friendlyDate(item.created_at)}</div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      } catch (err) {
+        console.error('Gallery load failed:', err);
+        grid.innerHTML = '<p style="text-align:center;color:#999;padding:40px">Could not load gallery</p>';
+      }
+    }
+
+    function friendlyDate(iso) {
+      const d = new Date(iso);
+      const now = new Date();
+      const diff = Math.floor((now - d) / 86400000);
+      if (diff === 0) return 'Today';
+      if (diff === 1) return 'Yesterday';
+      if (diff < 7) return `${diff} days ago`;
+      return d.toLocaleDateString();
+    }
+
+    /* ===== Init ===== */
+    buildSidebar();
+    buildBasePicker();
+    buildBgSelector();
+    render();
+  </script>
+</body>
+</html>
