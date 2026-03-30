@@ -530,7 +530,16 @@
       { name: 'candy',  color: '#FF8FAB' },
     ];
 
-    const BASE_ANIMALS = ['tiger','elephant','frog','lion','bear'];
+    const BASE_ANIMALS = ['tiger','elephant','bear','giraffe','panda'];
+
+    // Map base animal to best-matching parts from available SVGs
+    const BASE_PRESETS = {
+      tiger:    { head:'tiger',    body:'tiger',    legs:'tiger',    tail:'tiger' },
+      elephant: { head:'elephant', body:'elephant', legs:'elephant', tail:'fish' },
+      bear:     { head:'monkey',   body:'bear',     legs:'lion',     tail:'horse' },
+      giraffe:  { head:'deer',     body:'giraffe',  legs:'flamingo', tail:'horse' },
+      panda:    { head:'frog',     body:'panda',    legs:'duck',     tail:'snake' },
+    };
 
     // Current mix state
     const state = {
@@ -729,11 +738,12 @@
     }
 
     function selectBase(animal) {
+      const preset = BASE_PRESETS[animal] || { head: animal, body: animal, legs: animal, tail: animal };
       state.base = animal;
-      state.head = animal;
-      state.body = animal;
-      state.legs = animal;
-      state.tail = animal;
+      state.head = preset.head;
+      state.body = preset.body;
+      state.legs = preset.legs;
+      state.tail = preset.tail;
       state.accessories = [];
 
       // Update base picker selection
@@ -746,7 +756,7 @@
         } else {
           const catMap = { heads: 'head', bodies: 'body', legs: 'legs', tails: 'tail' };
           const stateKey = catMap[t.dataset.category];
-          t.classList.toggle('selected', t.dataset.name === animal && state[stateKey] === animal);
+          t.classList.toggle('selected', t.dataset.name === state[stateKey]);
         }
       });
 
