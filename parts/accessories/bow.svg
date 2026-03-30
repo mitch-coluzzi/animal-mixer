@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Cute Pink Hair Bow at top of head -->
+  <!-- Left loop -->
+  <path d="M200,80 Q150,50 140,70 Q130,95 200,90 Z"
+        fill="#FF69B4" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right loop -->
+  <path d="M200,80 Q250,50 260,70 Q270,95 200,90 Z"
+        fill="#FF69B4" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left tail ribbon -->
+  <path d="M200,90 Q160,105 148,100 Q145,115 165,108"
+        fill="#E0559E" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right tail ribbon -->
+  <path d="M200,90 Q240,105 252,100 Q255,115 235,108"
+        fill="#E0559E" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <!-- Center knot -->
+  <ellipse cx="200" cy="85" rx="11" ry="9" fill="#E0559E" stroke="#222" stroke-width="3"/>
+  <!-- Highlight dots -->
+  <circle cx="165" cy="68" r="4" fill="#FFB6D9" opacity="0.7"/>
+  <circle cx="235" cy="68" r="4" fill="#FFB6D9" opacity="0.7"/>
+  <circle cx="200" cy="82" r="2.5" fill="#FFB6D9" opacity="0.6"/>
+</svg>

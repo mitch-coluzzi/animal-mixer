@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Candy background -->
+  <rect width="400" height="500" fill="#FF8FAB"/>
+
+  <!-- Candy cane stripe border - left -->
+  <g>
+    <rect x="0" y="0" width="18" height="500" fill="#FF4081"/>
+    <rect x="0" y="0" width="18" height="30" fill="white"/>
+    <rect x="0" y="60" width="18" height="30" fill="white"/>
+    <rect x="0" y="120" width="18" height="30" fill="white"/>
+    <rect x="0" y="180" width="18" height="30" fill="white"/>
+    <rect x="0" y="240" width="18" height="30" fill="white"/>
+    <rect x="0" y="300" width="18" height="30" fill="white"/>
+    <rect x="0" y="360" width="18" height="30" fill="white"/>
+    <rect x="0" y="420" width="18" height="30" fill="white"/>
+    <rect x="0" y="480" width="18" height="20" fill="white"/>
+    <rect x="0" y="0" width="18" height="500" fill="none" stroke="#222" stroke-width="2.5"/>
+  </g>
+
+  <!-- Candy cane stripe border - right -->
+  <g>
+    <rect x="382" y="0" width="18" height="500" fill="#FF4081"/>
+    <rect x="382" y="15" width="18" height="30" fill="white"/>
+    <rect x="382" y="75" width="18" height="30" fill="white"/>
+    <rect x="382" y="135" width="18" height="30" fill="white"/>
+    <rect x="382" y="195" width="18" height="30" fill="white"/>
+    <rect x="382" y="255" width="18" height="30" fill="white"/>
+    <rect x="382" y="315" width="18" height="30" fill="white"/>
+    <rect x="382" y="375" width="18" height="30" fill="white"/>
+    <rect x="382" y="435" width="18" height="30" fill="white"/>
+    <rect x="382" y="0" width="18" height="500" fill="none" stroke="#222" stroke-width="2.5"/>
+  </g>
+
+  <!-- Lollipop 1 - top right area -->
+  <g transform="translate(310, 90)">
+    <line x1="0" y1="30" x2="0" y2="70" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="30" x2="0" y2="70" stroke="#222" stroke-width="6.5" stroke-linecap="round" opacity="0.15"/>
+    <circle cx="0" cy="20" r="24" fill="#7C4DFF" stroke="#222" stroke-width="3"/>
+    <!-- Swirl on lollipop -->
+    <path d="M0 20 Q8 12 0 8 Q-10 6 -8 16 Q-4 26 6 22 Q14 16 8 8" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Lollipop 2 - left area -->
+  <g transform="translate(60, 130)">
+    <line x1="0" y1="25" x2="0" y2="60" stroke="#FFF" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="0" y1="25" x2="0" y2="60" stroke="#222" stroke-width="6" stroke-linecap="round" opacity="0.15"/>
+    <circle cx="0" cy="16" r="20" fill="#FF6D00" stroke="#222" stroke-width="3"/>
+    <path d="M0 16 Q6 10 0 6 Q-8 4 -6 14 Q-2 22 5 18 Q12 14 6 6" fill="none" stroke="#FFE57F" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Colorful swirl 1 -->
+  <g transform="translate(200, 60)">
+    <path d="M0 0 Q15 -10 10 -22 Q4 -32 -8 -26 Q-18 -18 -10 -6 Q0 4 14 -2" fill="none" stroke="#7C4DFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Colorful swirl 2 -->
+  <g transform="translate(140, 380)">
+    <path d="M0 0 Q12 -8 8 -18 Q3 -26 -6 -21 Q-15 -14 -8 -5 Q0 3 11 -2" fill="none" stroke="#00BCD4" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Colorful swirl 3 -->
+  <g transform="translate(300, 350)">
+    <path d="M0 0 Q10 -7 7 -15 Q2 -22 -5 -17 Q-12 -12 -6 -4 Q0 2 9 -1" fill="none" stroke="#FFD93D" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wrapped candy 1 -->
+  <g transform="translate(130, 250) rotate(-15)">
+    <ellipse cx="0" cy="0" rx="16" ry="10" fill="#4FC3F7" stroke="#222" stroke-width="2.5"/>
+    <polygon points="-16,-2 -28,-8 -26,6" fill="#4FC3F7" stroke="#222" stroke-width="2"/>
+    <polygon points="16,-2 28,-8 26,6" fill="#4FC3F7" stroke="#222" stroke-width="2"/>
+    <line x1="-6" y1="-4" x2="-6" y2="4" stroke="white" stroke-width="1.5"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="white" stroke-width="1.5"/>
+    <line x1="6" y1="-4" x2="6" y2="4" stroke="white" stroke-width="1.5"/>
+  </g>
+
+  <!-- Wrapped candy 2 -->
+  <g transform="translate(280, 440) rotate(10)">
+    <ellipse cx="0" cy="0" rx="14" ry="9" fill="#FF5252" stroke="#222" stroke-width="2.5"/>
+    <polygon points="-14,-2 -24,-7 -22,5" fill="#FF5252" stroke="#222" stroke-width="2"/>
+    <polygon points="14,-2 24,-7 22,5" fill="#FF5252" stroke="#222" stroke-width="2"/>
+    <line x1="-5" y1="-3" x2="-5" y2="3" stroke="white" stroke-width="1.5"/>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="white" stroke-width="1.5"/>
+    <line x1="5" y1="-3" x2="5" y2="3" stroke="white" stroke-width="1.5"/>
+  </g>
+
+  <!-- Small candy dots scattered -->
+  <circle cx="80" cy="60" r="5" fill="#FFD93D" stroke="#222" stroke-width="2"/>
+  <circle cx="250" cy="150" r="4" fill="#69F0AE" stroke="#222" stroke-width="2"/>
+  <circle cx="170" cy="180" r="5" fill="#FF80AB" stroke="#222" stroke-width="2"/>
+  <circle cx="340" cy="250" r="4" fill="#B388FF" stroke="#222" stroke-width="2"/>
+  <circle cx="60" cy="330" r="5" fill="#40C4FF" stroke="#222" stroke-width="2"/>
+  <circle cx="220" cy="320" r="4" fill="#FFD93D" stroke="#222" stroke-width="2"/>
+  <circle cx="100" cy="440" r="4" fill="#69F0AE" stroke="#222" stroke-width="2"/>
+  <circle cx="200" cy="460" r="5" fill="#FF80AB" stroke="#222" stroke-width="2"/>
+
+  <!-- Wavy candy ground -->
+  <path d="M18 470 Q100 455 200 465 Q300 452 382 460 L382 500 L18 500 Z" fill="#FF6090" stroke="#222" stroke-width="2.5"/>
+</svg>

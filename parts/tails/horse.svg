@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Horse Tail: flowing hair tail -->
+  <!-- Tail base/dock -->
+  <path d="M290,248 C305,245 320,240 332,232 C340,226 345,218 342,212"
+        fill="none" stroke="#8B4513" stroke-width="14" stroke-linecap="round"/>
+  <path d="M290,248 C305,245 320,240 332,232 C340,226 345,218 342,212"
+        fill="none" stroke="#2A2A2A" stroke-width="17" stroke-linecap="round" opacity="0.12"/>
+  <path d="M290,248 C305,245 320,240 332,232 C340,226 345,218 342,212"
+        fill="none" stroke="#8B4513" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Flowing hair strands -->
+  <path d="M342,215 C348,230 355,260 350,290 C345,315 335,340 330,360"
+        fill="none" stroke="#8B4513" stroke-width="8" stroke-linecap="round"/>
+  <path d="M340,212 C350,225 362,250 365,280 C368,310 360,340 355,365"
+        fill="none" stroke="#A0522D" stroke-width="7" stroke-linecap="round"/>
+  <path d="M338,218 C340,235 342,265 335,295 C328,325 318,350 312,370"
+        fill="none" stroke="#8B4513" stroke-width="7" stroke-linecap="round"/>
+  <path d="M344,214 C355,235 370,265 375,295 C378,320 372,345 368,360"
+        fill="none" stroke="#A0522D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M336,220 C335,240 330,270 322,300 C315,328 308,348 305,365"
+        fill="none" stroke="#A0522D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M341,216 C345,240 348,275 345,305 C342,330 338,352 336,368"
+        fill="none" stroke="#8B4513" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- A few wispy highlight strands -->
+  <path d="M343,220 C352,245 358,275 356,305 C354,330 348,350 345,362"
+        fill="none" stroke="#A0522D" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M339,222 C337,248 333,278 328,308 C324,332 320,352 318,365"
+        fill="none" stroke="#A0522D" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+</svg>

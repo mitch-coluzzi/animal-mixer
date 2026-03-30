@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Frog Legs - chunky thighs with webbed feet -->
+  <!-- Left leg thigh -->
+  <path d="M120,325 C105,340 90,360 85,385 C82,400 88,415 95,425 C100,432 108,435 115,435" fill="#5DBB63" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left leg shin -->
+  <path d="M115,435 C118,440 115,450 110,460 C105,468 100,472 95,475" fill="#5DBB63" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left leg fill shape -->
+  <path d="M120,325 C105,340 90,360 85,385 C82,400 88,415 95,425 C100,432 108,435 115,435 C118,440 115,450 110,460 C105,468 100,472 95,475 L110,475 C118,468 125,455 128,440 C145,440 148,432 147,425 C146,415 140,400 138,385 C136,360 132,340 120,325 Z" fill="#5DBB63" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left spots -->
+  <circle cx="110" cy="370" r="5" fill="#3A9940"/>
+  <circle cx="120" cy="400" r="4" fill="#3A9940"/>
+  <!-- Left webbed foot -->
+  <path d="M70,475 C75,468 82,470 88,475 L80,490 Z" fill="#3A9940" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M85,475 C90,468 97,470 102,475 L95,490 Z" fill="#3A9940" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100,475 C105,468 112,470 117,475 L110,490 Z" fill="#3A9940" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Webbing between left toes -->
+  <path d="M80,488 C85,482 90,482 95,488" fill="#3A9940" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M95,488 C100,482 105,482 110,488" fill="#3A9940" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Right leg fill shape -->
+  <path d="M280,325 C295,340 310,360 315,385 C318,400 312,415 305,425 C300,432 292,435 285,435 C282,440 285,450 290,460 C295,468 300,472 305,475 L290,475 C282,468 275,455 272,440 C255,440 252,432 253,425 C254,415 260,400 262,385 C264,360 268,340 280,325 Z" fill="#5DBB63" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right spots -->
+  <circle cx="290" cy="370" r="5" fill="#3A9940"/>
+  <circle cx="280" cy="400" r="4" fill="#3A9940"/>
+  <!-- Right webbed foot -->
+  <path d="M283,475 C288,468 295,470 300,475 L293,490 Z" fill="#3A9940" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M298,475 C303,468 310,470 315,475 L308,490 Z" fill="#3A9940" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M313,475 C318,468 325,470 330,475 L323,490 Z" fill="#3A9940" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Webbing between right toes -->
+  <path d="M293,488 C298,482 303,482 308,488" fill="#3A9940" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M308,488 C313,482 318,482 323,488" fill="#3A9940" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round" opacity="0.7"/>
+</svg>

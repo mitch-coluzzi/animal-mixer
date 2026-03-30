@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Tiger Tail: striped, curving outward from body -->
+  <!-- Main tail shape - thick curving tail -->
+  <path d="M300,240 C320,235 350,220 370,200 C390,178 385,155 370,145 C355,135 340,142 335,158 C328,178 330,200 340,215 C345,222 350,225 348,232 C344,245 325,255 310,250 C298,246 295,242 300,240Z"
+        fill="#E8823A" stroke="#2A2A2A" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Stripe 1 -->
+  <path d="M340,155 C335,165 333,178 336,188"
+        fill="none" stroke="#D06A28" stroke-width="8" stroke-linecap="round"/>
+  <!-- Stripe 2 -->
+  <path d="M355,162 C348,175 347,190 350,200"
+        fill="none" stroke="#D06A28" stroke-width="7" stroke-linecap="round"/>
+  <!-- Stripe 3 -->
+  <path d="M368,172 C360,185 358,198 360,210"
+        fill="none" stroke="#D06A28" stroke-width="7" stroke-linecap="round"/>
+  <!-- Stripe 4 near base -->
+  <path d="M318,242 C315,235 318,228 325,225"
+        fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
+  <!-- Tail tip - slightly rounded -->
+  <ellipse cx="370" cy="145" rx="10" ry="8" fill="#D06A28" stroke="#2A2A2A" stroke-width="3" transform="rotate(-20,370,145)"/>
+</svg>

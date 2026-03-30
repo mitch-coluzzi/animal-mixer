@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Lion Legs - strong chunky legs with round paws -->
+  <!-- Left leg -->
+  <path d="M112,325 C110,340 106,365 104,390 C102,415 101,440 102,458 C103,468 110,475 125,475 C140,475 147,468 148,458 C149,440 147,415 144,390 C141,365 138,340 137,325 Z" fill="#E8A830" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left leg fur tufts -->
+  <path d="M108,345 C112,340 118,342 122,340 C126,342 132,340 137,345" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
+  <!-- Left leg shading lines -->
+  <path d="M109,385 C116,382 130,382 143,385" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M107,420 C115,417 132,417 145,420" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left big round paw -->
+  <ellipse cx="125" cy="477" rx="25" ry="10" fill="#E8A830" stroke="#2B2B2B" stroke-width="3.5"/>
+  <!-- Left paw pads (toe beans!) -->
+  <ellipse cx="112" cy="478" rx="6" ry="4" fill="#C88010" stroke="#2B2B2B" stroke-width="2"/>
+  <ellipse cx="125" cy="480" rx="6" ry="4" fill="#C88010" stroke="#2B2B2B" stroke-width="2"/>
+  <ellipse cx="138" cy="478" rx="6" ry="4" fill="#C88010" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- Right leg -->
+  <path d="M262,325 C260,340 256,365 254,390 C252,415 251,440 252,458 C253,468 260,475 275,475 C290,475 297,468 298,458 C299,440 297,415 294,390 C291,365 288,340 287,325 Z" fill="#E8A830" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right leg fur tufts -->
+  <path d="M258,345 C262,340 268,342 272,340 C276,342 282,340 287,345" fill="none" stroke="#C88010" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right leg shading lines -->
+  <path d="M259,385 C266,382 280,382 293,385" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M257,420 C265,417 282,417 295,420" fill="none" stroke="#C88010" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right big round paw -->
+  <ellipse cx="275" cy="477" rx="25" ry="10" fill="#E8A830" stroke="#2B2B2B" stroke-width="3.5"/>
+  <!-- Right paw pads (toe beans!) -->
+  <ellipse cx="262" cy="478" rx="6" ry="4" fill="#C88010" stroke="#2B2B2B" stroke-width="2"/>
+  <ellipse cx="275" cy="480" rx="6" ry="4" fill="#C88010" stroke="#2B2B2B" stroke-width="2"/>
+  <ellipse cx="288" cy="478" rx="6" ry="4" fill="#C88010" stroke="#2B2B2B" stroke-width="2"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Tiger Head -->
+  <!-- Ears -->
+  <ellipse cx="105" cy="95" rx="52" ry="48" fill="#E8823A" stroke="#222" stroke-width="3.5" transform="rotate(-12, 105, 95)"/>
+  <ellipse cx="105" cy="95" rx="30" ry="28" fill="#FFF0E0" stroke="none" transform="rotate(-12, 105, 95)"/>
+  <ellipse cx="295" cy="95" rx="52" ry="48" fill="#E8823A" stroke="#222" stroke-width="3.5" transform="rotate(12, 295, 95)"/>
+  <ellipse cx="295" cy="95" rx="30" ry="28" fill="#FFF0E0" stroke="none" transform="rotate(12, 295, 95)"/>
+
+  <!-- Head shape - slightly wobbly -->
+  <path d="M80,200 C78,140 120,72 200,68 C280,72 322,140 320,200 C322,280 310,340 290,380 C270,410 240,422 200,424 C160,422 130,410 110,380 C90,340 78,280 80,200Z" fill="#E8823A" stroke="#222" stroke-width="3.5"/>
+
+  <!-- White cheek/muzzle area -->
+  <ellipse cx="200" cy="310" rx="95" ry="80" fill="#FFF5E8" stroke="none"/>
+
+  <!-- Tiger stripes -->
+  <path d="M120,130 C135,145 128,170 118,180" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
+  <path d="M145,105 C158,125 150,155 142,165" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
+  <path d="M280,130 C265,145 272,170 282,180" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
+  <path d="M255,105 C242,125 250,155 258,165" fill="none" stroke="#D06A28" stroke-width="6" stroke-linecap="round"/>
+  <path d="M188,85 C192,105 188,130 185,140" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M212,85 C208,105 212,130 215,140" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Eyes - big and cute -->
+  <ellipse cx="155" cy="220" rx="30" ry="32" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="155" cy="224" rx="18" ry="20" fill="#3A2010"/>
+  <ellipse cx="150" cy="216" rx="7" ry="8" fill="#FFFFFF"/>
+  <ellipse cx="245" cy="220" rx="30" ry="32" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="245" cy="224" rx="18" ry="20" fill="#3A2010"/>
+  <ellipse cx="240" cy="216" rx="7" ry="8" fill="#FFFFFF"/>
+
+  <!-- Nose -->
+  <path d="M188,280 C190,270 210,270 212,280 C215,290 205,298 200,298 C195,298 185,290 188,280Z" fill="#D06A28" stroke="#222" stroke-width="2.5"/>
+
+  <!-- Mouth - friendly smile -->
+  <path d="M175,310 C180,328 190,335 200,335 C210,335 220,328 225,310" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="298" x2="200" y2="318" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Whisker dots -->
+  <circle cx="165" cy="300" r="3" fill="#D06A28"/>
+  <circle cx="155" cy="308" r="3" fill="#D06A28"/>
+  <circle cx="160" cy="316" r="3" fill="#D06A28"/>
+  <circle cx="235" cy="300" r="3" fill="#D06A28"/>
+  <circle cx="245" cy="308" r="3" fill="#D06A28"/>
+  <circle cx="240" cy="316" r="3" fill="#D06A28"/>
+
+  <!-- Whiskers -->
+  <line x1="100" y1="285" x2="148" y2="298" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <line x1="95" y1="305" x2="146" y2="308" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="325" x2="148" y2="318" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <line x1="300" y1="285" x2="252" y2="298" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <line x1="305" y1="305" x2="254" y2="308" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <line x1="300" y1="325" x2="252" y2="318" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <path d="M155,410 C160,420 180,425 200,425 C220,425 240,420 245,410 L250,420 C235,428 218,432 200,432 C182,432 165,428 150,420Z" fill="#E8823A" stroke="#222" stroke-width="3"/>
+</svg>

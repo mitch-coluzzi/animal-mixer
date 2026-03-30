@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Desert sky -->
+  <rect width="400" height="500" fill="#F4A460"/>
+
+  <!-- Lighter sky at top -->
+  <rect width="400" height="200" fill="#FFDEAD" opacity="0.5"/>
+
+  <!-- Hot sun -->
+  <circle cx="320" cy="80" r="40" fill="#FFD93D" stroke="#222" stroke-width="3.5"/>
+  <!-- Sunglasses on the sun -->
+  <rect x="302" y="72" width="14" height="10" rx="3" fill="#222"/>
+  <rect x="322" y="72" width="14" height="10" rx="3" fill="#222"/>
+  <line x1="316" y1="77" x2="322" y2="77" stroke="#222" stroke-width="2"/>
+  <path d="M306 90 Q320 100 334 90" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Sand dunes - back layer -->
+  <path d="M0 380 Q60 350 130 370 Q200 340 280 365 Q350 345 400 360 L400 500 L0 500 Z" fill="#DEB887" stroke="#222" stroke-width="3"/>
+
+  <!-- Sand dunes - front layer -->
+  <path d="M0 420 Q80 395 160 410 Q240 390 320 405 Q370 395 400 400 L400 500 L0 500 Z" fill="#D2A06B" stroke="#222" stroke-width="3.5"/>
+
+  <!-- Cactus 1 - tall one left -->
+  <g transform="translate(70, 310)">
+    <!-- Main trunk -->
+    <rect x="-10" y="-80" width="20" height="95" rx="8" fill="#6B8E23" stroke="#222" stroke-width="3"/>
+    <!-- Left arm -->
+    <rect x="-30" y="-60" width="15" height="35" rx="6" fill="#6B8E23" stroke="#222" stroke-width="3"/>
+    <rect x="-30" y="-65" width="15" height="15" rx="6" fill="#6B8E23" stroke="#222" stroke-width="3" transform="translate(0, -5)"/>
+    <!-- Right arm -->
+    <rect x="15" y="-45" width="15" height="30" rx="6" fill="#6B8E23" stroke="#222" stroke-width="3"/>
+    <rect x="15" y="-50" width="15" height="15" rx="6" fill="#6B8E23" stroke="#222" stroke-width="3" transform="translate(0, -10)"/>
+    <!-- Face on cactus -->
+    <circle cx="-3" cy="-45" r="2.5" fill="#222"/>
+    <circle cx="7" cy="-45" r="2.5" fill="#222"/>
+    <path d="M-2 -37 Q3 -32 8 -37" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Cactus 2 - round one middle -->
+  <g transform="translate(220, 370)">
+    <ellipse cx="0" cy="-25" rx="18" ry="30" fill="#7CB342" stroke="#222" stroke-width="3"/>
+    <!-- Spikes -->
+    <line x1="-15" y1="-40" x2="-22" y2="-48" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-55" x2="0" y2="-63" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <line x1="15" y1="-40" x2="22" y2="-48" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <line x1="18" y1="-20" x2="25" y2="-20" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-18" y1="-20" x2="-25" y2="-20" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <!-- Flower on top -->
+    <circle cx="0" cy="-56" r="5" fill="#FF6B9D" stroke="#222" stroke-width="2"/>
+    <circle cx="0" cy="-56" r="2" fill="#FFD93D"/>
+  </g>
+
+  <!-- Cactus 3 - small one right -->
+  <g transform="translate(330, 375)">
+    <rect x="-8" y="-50" width="16" height="55" rx="7" fill="#8BC34A" stroke="#222" stroke-width="3"/>
+    <!-- Tiny arm -->
+    <rect x="8" y="-35" width="12" height="10" rx="5" fill="#8BC34A" stroke="#222" stroke-width="2.5"/>
+  </g>
+
+  <!-- Small rocks -->
+  <ellipse cx="150" cy="445" rx="14" ry="8" fill="#A0826D" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="170" cy="448" rx="10" ry="6" fill="#B8977E" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="300" cy="435" rx="12" ry="7" fill="#A08060" stroke="#222" stroke-width="2.5"/>
+
+  <!-- Tiny tumbleweeds / dots for texture -->
+  <circle cx="50" cy="450" r="4" fill="#C4A882" stroke="#222" stroke-width="1.5"/>
+  <circle cx="370" cy="455" r="3" fill="#C4A882" stroke="#222" stroke-width="1.5"/>
+</svg>

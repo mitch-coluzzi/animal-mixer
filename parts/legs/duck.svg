@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Duck Legs - short stubby legs with big flat webbed feet -->
+  <!-- Left leg -->
+  <path d="M155,340 C153,355 150,370 149,390 C148,410 148,430 149,450 C150,458 154,462 160,462" fill="none" stroke="#2B2B2B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M155,340 C153,355 150,370 149,390 C148,410 148,430 149,450 C150,458 154,462 160,462" fill="none" stroke="#FFB800" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left webbed foot -->
+  <path d="M125,462 C130,455 140,453 150,460 C155,453 162,452 170,455 C178,458 182,465 180,472 C178,480 170,485 155,485 C140,485 128,480 125,472 Z" fill="#E6A600" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left foot web lines -->
+  <line x1="140" y1="462" x2="137" y2="480" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="155" y1="460" x2="155" y2="482" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="170" y1="462" x2="172" y2="480" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right leg -->
+  <path d="M245,340 C247,355 250,370 251,390 C252,410 252,430 251,450 C250,458 246,462 240,462" fill="none" stroke="#2B2B2B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M245,340 C247,355 250,370 251,390 C252,410 252,430 251,450 C250,458 246,462 240,462" fill="none" stroke="#FFB800" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right webbed foot -->
+  <path d="M220,462 C225,455 235,453 245,460 C250,453 257,452 265,455 C273,458 277,465 275,472 C273,480 265,485 250,485 C235,485 223,480 220,472 Z" fill="#E6A600" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right foot web lines -->
+  <line x1="235" y1="462" x2="232" y2="480" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="250" y1="460" x2="250" y2="482" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="265" y1="462" x2="267" y2="480" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+</svg>

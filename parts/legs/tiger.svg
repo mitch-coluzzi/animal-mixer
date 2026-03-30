@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Tiger Legs - chunky with stripes -->
+  <!-- Left leg -->
+  <path d="M115,325 C113,340 108,370 106,400 C104,430 103,455 105,470 C107,478 115,482 128,482 C141,482 148,478 149,470 C151,455 148,430 145,400 C142,370 138,340 136,325 Z" fill="#E8823A" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Left leg stripes -->
+  <path d="M112,350 C118,347 130,347 140,350" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M110,375 C117,372 129,372 138,375" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M108,400 C115,397 128,397 137,400" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M106,425 C114,422 128,422 138,425" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <!-- Left paw toes -->
+  <ellipse cx="112" cy="483" rx="10" ry="6" fill="#E8823A" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="127" cy="485" rx="10" ry="6" fill="#E8823A" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="142" cy="483" rx="10" ry="6" fill="#E8823A" stroke="#2B2B2B" stroke-width="3"/>
+
+  <!-- Right leg -->
+  <path d="M264,325 C262,340 257,370 255,400 C253,430 252,455 254,470 C256,478 264,482 277,482 C290,482 297,478 298,470 C300,455 297,430 294,400 C291,370 287,340 285,325 Z" fill="#E8823A" stroke="#2B2B2B" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Right leg stripes -->
+  <path d="M261,350 C267,347 279,347 289,350" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M259,375 C266,372 278,372 287,375" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M257,400 C264,397 277,397 286,400" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M255,425 C263,422 277,422 287,425" fill="none" stroke="#D06A28" stroke-width="5" stroke-linecap="round"/>
+  <!-- Right paw toes -->
+  <ellipse cx="261" cy="483" rx="10" ry="6" fill="#E8823A" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="276" cy="485" rx="10" ry="6" fill="#E8823A" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="291" cy="483" rx="10" ry="6" fill="#E8823A" stroke="#2B2B2B" stroke-width="3"/>
+</svg>

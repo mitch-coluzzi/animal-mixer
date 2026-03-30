@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Flamingo Legs - long, thin, funny stick legs -->
+  <!-- Left leg - with slight wobble and knee bend -->
+  <path d="M160,330 C158,345 155,360 157,380 C159,395 155,410 153,430 C151,450 150,465 150,475" fill="none" stroke="#FF69B4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left leg outline for thickness -->
+  <path d="M160,330 C158,345 155,360 157,380 C159,395 155,410 153,430 C151,450 150,465 150,475" fill="none" stroke="#2B2B2B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160,330 C158,345 155,360 157,380 C159,395 155,410 153,430 C151,450 150,465 150,475" fill="none" stroke="#FF69B4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left knee bump -->
+  <circle cx="157" cy="380" r="6" fill="#FF1493" stroke="#2B2B2B" stroke-width="2.5"/>
+  <!-- Left foot -->
+  <path d="M135,475 C138,470 145,468 150,475 C155,468 162,470 165,475 C165,480 160,485 150,485 C140,485 135,480 135,475 Z" fill="#FF1493" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Left foot toes -->
+  <line x1="140" y1="480" x2="133" y2="486" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="150" y1="482" x2="150" y2="490" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="160" y1="480" x2="167" y2="486" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right leg -->
+  <path d="M240,330 C242,345 245,360 243,380 C241,395 245,410 247,430 C249,450 250,465 250,475" fill="none" stroke="#2B2B2B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M240,330 C242,345 245,360 243,380 C241,395 245,410 247,430 C249,450 250,465 250,475" fill="none" stroke="#FF69B4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right knee bump -->
+  <circle cx="243" cy="380" r="6" fill="#FF1493" stroke="#2B2B2B" stroke-width="2.5"/>
+  <!-- Right foot -->
+  <path d="M235,475 C238,470 245,468 250,475 C255,468 262,470 265,475 C265,480 260,485 250,485 C240,485 235,480 235,475 Z" fill="#FF1493" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Right foot toes -->
+  <line x1="240" y1="480" x2="233" y2="486" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="250" y1="482" x2="250" y2="490" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="260" y1="480" x2="267" y2="486" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

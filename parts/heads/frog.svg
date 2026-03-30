@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Frog Head -->
+  <!-- Big bulging eyes on top -->
+  <circle cx="130" cy="115" r="55" fill="#5DBB63" stroke="#222" stroke-width="3.5"/>
+  <circle cx="130" cy="112" r="40" fill="#FFFFFF" stroke="#222" stroke-width="2.5"/>
+  <circle cx="130" cy="116" r="22" fill="#2A5A20"/>
+  <circle cx="124" cy="108" r="8" fill="#FFFFFF"/>
+  <circle cx="270" cy="115" r="55" fill="#5DBB63" stroke="#222" stroke-width="3.5"/>
+  <circle cx="270" cy="112" r="40" fill="#FFFFFF" stroke="#222" stroke-width="2.5"/>
+  <circle cx="270" cy="116" r="22" fill="#2A5A20"/>
+  <circle cx="264" cy="108" r="8" fill="#FFFFFF"/>
+
+  <!-- Head shape - wide and flat -->
+  <path d="M60,200 C55,155 85,130 130,140 C160,145 180,148 200,148 C220,148 240,145 270,140 C315,130 345,155 340,200 C342,260 335,320 310,365 C290,395 250,418 200,420 C150,418 110,395 90,365 C65,320 58,260 60,200Z" fill="#5DBB63" stroke="#222" stroke-width="3.5"/>
+
+  <!-- Belly/throat lighter area -->
+  <ellipse cx="200" cy="320" rx="100" ry="75" fill="#A8E8A0" stroke="none"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="170" cy="225" rx="8" ry="6" fill="#3A9940" stroke="#222" stroke-width="2"/>
+  <ellipse cx="230" cy="225" rx="8" ry="6" fill="#3A9940" stroke="#222" stroke-width="2"/>
+
+  <!-- Big wide mouth - happy grin -->
+  <path d="M105,290 C120,330 155,355 200,358 C245,355 280,330 295,290" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Mouth line corners turning up -->
+  <path d="M100,290 C98,282 102,278 108,282" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  <path d="M300,290 C302,282 298,278 292,282" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cheek blush -->
+  <ellipse cx="115" cy="270" rx="20" ry="12" fill="#90D890" opacity="0.6"/>
+  <ellipse cx="285" cy="270" rx="20" ry="12" fill="#90D890" opacity="0.6"/>
+
+  <!-- Spots on forehead -->
+  <circle cx="175" cy="185" r="10" fill="#3A9940" opacity="0.4"/>
+  <circle cx="225" cy="185" r="10" fill="#3A9940" opacity="0.4"/>
+  <circle cx="200" cy="175" r="7" fill="#3A9940" opacity="0.3"/>
+
+  <!-- Neck -->
+  <path d="M155,408 C165,418 182,424 200,425 C218,424 235,418 245,408 L250,420 C238,428 220,432 200,432 C180,432 162,428 150,420Z" fill="#5DBB63" stroke="#222" stroke-width="3"/>
+</svg>

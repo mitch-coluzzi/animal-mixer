@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Sky background -->
+  <rect width="400" height="500" fill="#87CEEB"/>
+
+  <!-- Happy sun in top-right corner -->
+  <circle cx="340" cy="70" r="50" fill="#FFD93D" stroke="#222" stroke-width="3.5"/>
+  <!-- Sun rays -->
+  <line x1="340" y1="5" x2="340" y2="18" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="340" y1="122" x2="340" y2="135" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="275" y1="70" x2="288" y2="70" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="392" y1="70" x2="400" y2="70" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="296" y1="26" x2="305" y2="35" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="375" y1="105" x2="384" y2="114" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="296" y1="114" x2="305" y2="105" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <line x1="375" y1="35" x2="384" y2="26" stroke="#FFD93D" stroke-width="5" stroke-linecap="round"/>
+  <!-- Sun face -->
+  <circle cx="328" cy="62" r="5" fill="#222"/>
+  <circle cx="352" cy="62" r="5" fill="#222"/>
+  <path d="M325 80 Q340 95 355 80" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cloud 1 - top left -->
+  <g transform="translate(30, 60)">
+    <ellipse cx="0" cy="0" rx="35" ry="22" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="30" cy="-8" rx="28" ry="20" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="55" cy="2" rx="30" ry="18" fill="white" stroke="#222" stroke-width="3"/>
+    <!-- Cover inner strokes -->
+    <ellipse cx="25" cy="2" rx="30" ry="14" fill="white"/>
+  </g>
+
+  <!-- Cloud 2 - middle -->
+  <g transform="translate(140, 170)">
+    <ellipse cx="0" cy="0" rx="30" ry="18" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="28" cy="-6" rx="25" ry="17" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="50" cy="2" rx="28" ry="16" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="22" cy="2" rx="26" ry="12" fill="white"/>
+  </g>
+
+  <!-- Cloud 3 - lower left -->
+  <g transform="translate(20, 300)">
+    <ellipse cx="0" cy="0" rx="28" ry="16" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="25" cy="-5" rx="22" ry="15" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="48" cy="1" rx="25" ry="14" fill="white" stroke="#222" stroke-width="3"/>
+    <ellipse cx="20" cy="2" rx="24" ry="10" fill="white"/>
+  </g>
+
+  <!-- Gentle grassy ground -->
+  <path d="M0 460 Q50 445 100 455 Q150 440 200 450 Q250 438 300 448 Q350 440 400 452 L400 500 L0 500 Z" fill="#7EC850" stroke="#222" stroke-width="3.5"/>
+</svg>

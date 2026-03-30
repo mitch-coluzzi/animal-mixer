@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Jungle background -->
+  <rect width="400" height="500" fill="#4CAF50"/>
+
+  <!-- Slightly lighter canopy layer -->
+  <rect width="400" height="500" fill="#5DC460" opacity="0.4"/>
+
+  <!-- Ground / forest floor -->
+  <path d="M0 430 Q60 415 120 425 Q180 410 240 420 Q310 408 400 418 L400 500 L0 500 Z" fill="#3E8E41" stroke="#222" stroke-width="3.5"/>
+  <path d="M0 455 Q80 442 160 450 Q240 438 320 448 Q370 442 400 445 L400 500 L0 500 Z" fill="#2E7D32" stroke="#222" stroke-width="3"/>
+
+  <!-- Left vine -->
+  <path d="M0 0 Q15 60 5 120 Q-5 180 12 240 Q25 300 8 360" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+  <!-- Vine leaves -->
+  <ellipse cx="10" cy="50" rx="12" ry="7" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(-20 10 50)"/>
+  <ellipse cx="5" cy="130" rx="14" ry="8" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(15 5 130)"/>
+  <ellipse cx="15" cy="210" rx="12" ry="7" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(-25 15 210)"/>
+  <ellipse cx="8" cy="300" rx="13" ry="7" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(10 8 300)"/>
+
+  <!-- Right vine -->
+  <path d="M400 0 Q385 70 395 140 Q405 210 388 280 Q375 340 392 400" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="390" cy="70" rx="13" ry="7" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(20 390 70)"/>
+  <ellipse cx="395" cy="160" rx="12" ry="7" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(-15 395 160)"/>
+  <ellipse cx="387" cy="250" rx="14" ry="8" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(25 387 250)"/>
+  <ellipse cx="393" cy="340" rx="12" ry="7" fill="#66BB6A" stroke="#222" stroke-width="2.5" transform="rotate(-10 393 340)"/>
+
+  <!-- Big tropical leaf top-left -->
+  <g transform="translate(40, 20) rotate(15)">
+    <path d="M0 0 Q30 -15 60 0 Q30 15 0 0 Z" fill="#43A047" stroke="#222" stroke-width="3"/>
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#2E7D32" stroke-width="2"/>
+  </g>
+
+  <!-- Big tropical leaf top-right -->
+  <g transform="translate(300, 10) rotate(-10)">
+    <path d="M0 0 Q35 -18 70 0 Q35 18 0 0 Z" fill="#43A047" stroke="#222" stroke-width="3"/>
+    <line x1="0" y1="0" x2="70" y2="0" stroke="#2E7D32" stroke-width="2"/>
+  </g>
+
+  <!-- Flower 1 bottom-left -->
+  <g transform="translate(70, 440)">
+    <circle cx="0" cy="0" r="8" fill="#FF5252" stroke="#222" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="7" fill="#FF7043" stroke="#222" stroke-width="2.5"/>
+    <circle cx="10" cy="-5" r="7" fill="#FF7043" stroke="#222" stroke-width="2.5"/>
+    <circle cx="10" cy="7" r="7" fill="#FF7043" stroke="#222" stroke-width="2.5"/>
+    <circle cx="0" cy="12" r="7" fill="#FF7043" stroke="#222" stroke-width="2.5"/>
+    <circle cx="-10" cy="7" r="7" fill="#FF7043" stroke="#222" stroke-width="2.5"/>
+    <circle cx="-10" cy="-5" r="7" fill="#FF7043" stroke="#222" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="5" fill="#FFEB3B" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Flower 2 right side -->
+  <g transform="translate(350, 410)">
+    <circle cx="0" cy="0" r="7" fill="#E040FB" stroke="#222" stroke-width="2.5"/>
+    <circle cx="0" cy="-10" r="6" fill="#CE93D8" stroke="#222" stroke-width="2.5"/>
+    <circle cx="9" cy="-4" r="6" fill="#CE93D8" stroke="#222" stroke-width="2.5"/>
+    <circle cx="9" cy="6" r="6" fill="#CE93D8" stroke="#222" stroke-width="2.5"/>
+    <circle cx="0" cy="10" r="6" fill="#CE93D8" stroke="#222" stroke-width="2.5"/>
+    <circle cx="-9" cy="6" r="6" fill="#CE93D8" stroke="#222" stroke-width="2.5"/>
+    <circle cx="-9" cy="-4" r="6" fill="#CE93D8" stroke="#222" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="4" fill="#FFF176" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Scattered big leaves in canopy area -->
+  <g transform="translate(160, 30) rotate(5)">
+    <path d="M0 0 Q25 -12 50 0 Q25 12 0 0 Z" fill="#388E3C" stroke="#222" stroke-width="2.5"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#2E7D32" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(80, 55) rotate(-20)">
+    <path d="M0 0 Q20 -10 40 0 Q20 10 0 0 Z" fill="#388E3C" stroke="#222" stroke-width="2.5"/>
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#2E7D32" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(260, 45) rotate(12)">
+    <path d="M0 0 Q22 -11 44 0 Q22 11 0 0 Z" fill="#388E3C" stroke="#222" stroke-width="2.5"/>
+    <line x1="0" y1="0" x2="44" y2="0" stroke="#2E7D32" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Round Funny Glasses at eye level -->
+  <!-- Left lens -->
+  <circle cx="160" cy="200" r="38" fill="#AADDFF" opacity="0.45" stroke="#222" stroke-width="4"/>
+  <!-- Right lens -->
+  <circle cx="240" cy="200" r="38" fill="#AADDFF" opacity="0.45" stroke="#222" stroke-width="4"/>
+  <!-- Bridge between lenses -->
+  <path d="M197,200 Q200,210 203,200" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+  <!-- Left temple arm -->
+  <path d="M122,200 Q105,198 95,205" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Right temple arm -->
+  <path d="M278,200 Q295,198 305,205" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Lens shine left -->
+  <ellipse cx="148" cy="188" rx="10" ry="6" fill="#FFFFFF" opacity="0.6" transform="rotate(-20,148,188)"/>
+  <!-- Lens shine right -->
+  <ellipse cx="228" cy="188" rx="10" ry="6" fill="#FFFFFF" opacity="0.6" transform="rotate(-20,228,188)"/>
+  <!-- Nose bump detail -->
+  <circle cx="200" cy="212" r="3" fill="none" stroke="#222" stroke-width="2" opacity="0.4"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Snake Tail: long curving snake body tapering to a point -->
+  <!-- Main snake tail body - wobbly S-curve -->
+  <path d="M290,250 C310,245 330,235 345,220 C365,200 370,175 355,160 C340,145 320,155 315,175 C310,195 320,210 335,215 C350,220 365,210 372,195 C380,178 375,158 365,148"
+        fill="none" stroke="#2A2A2A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.15"/>
+  <path d="M290,250 C310,245 330,235 345,220 C365,200 370,175 355,160 C340,145 320,155 315,175 C310,195 320,210 335,215 C350,220 365,210 372,195 C380,178 375,158 365,148"
+        fill="none" stroke="#228B22" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lighter belly/pattern stripe -->
+  <path d="M295,250 C312,244 332,234 346,219 C364,200 368,177 355,163 C343,150 325,158 320,175 C316,192 324,207 337,213 C349,218 362,209 369,196 C375,182 372,163 364,152"
+        fill="none" stroke="#32CD32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Scale pattern dots -->
+  <circle cx="320" cy="238" r="3" fill="#32CD32" opacity="0.7"/>
+  <circle cx="340" cy="225" r="3" fill="#32CD32" opacity="0.7"/>
+  <circle cx="358" cy="205" r="3" fill="#32CD32" opacity="0.7"/>
+  <circle cx="360" cy="180" r="2.5" fill="#32CD32" opacity="0.7"/>
+  <circle cx="345" cy="155" r="2.5" fill="#32CD32" opacity="0.7"/>
+  <circle cx="325" cy="165" r="2.5" fill="#32CD32" opacity="0.7"/>
+  <circle cx="320" cy="190" r="2.5" fill="#32CD32" opacity="0.7"/>
+  <circle cx="340" cy="210" r="2.5" fill="#32CD32" opacity="0.7"/>
+  <circle cx="360" cy="200" r="2" fill="#32CD32" opacity="0.7"/>
+
+  <!-- Pointed tail tip -->
+  <path d="M365,148 L372,138 L360,142Z" fill="#228B22" stroke="#2A2A2A" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

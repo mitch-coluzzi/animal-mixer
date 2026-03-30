@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Golden Crown with jewels -->
+  <!-- Crown body with wobbly points -->
+  <polygon points="130,105 140,60 170,90 200,45 230,90 260,60 270,105"
+           fill="#FFD700" stroke="#222" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Crown base band -->
+  <rect x="128" y="95" width="144" height="18" rx="3" fill="#FFC200" stroke="#222" stroke-width="3.5"/>
+  <!-- Red gems on points -->
+  <circle cx="200" cy="55" r="6" fill="#FF0000" stroke="#222" stroke-width="2"/>
+  <circle cx="140" cy="68" r="5" fill="#FF0000" stroke="#222" stroke-width="2"/>
+  <circle cx="260" cy="68" r="5" fill="#FF0000" stroke="#222" stroke-width="2"/>
+  <!-- Gems on band -->
+  <circle cx="170" cy="104" r="4.5" fill="#3399FF" stroke="#222" stroke-width="1.5"/>
+  <circle cx="200" cy="104" r="4.5" fill="#FF0000" stroke="#222" stroke-width="1.5"/>
+  <circle cx="230" cy="104" r="4.5" fill="#3399FF" stroke="#222" stroke-width="1.5"/>
+  <!-- Sparkle dots -->
+  <circle cx="155" cy="80" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="245" cy="80" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="200" cy="78" r="2" fill="#FFFFFF" opacity="0.8"/>
+</svg>

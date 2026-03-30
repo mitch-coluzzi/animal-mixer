@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Lion Tail: long thin tail with fluffy tuft at the end -->
+  <!-- Tail body - long swooping curve -->
+  <path d="M295,255 C320,248 345,230 360,205 C375,180 378,150 365,130 C358,120 350,118 345,125 C340,135 345,150 350,165"
+        fill="none" stroke="#E8A830" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Tail outline for cartoony feel -->
+  <path d="M295,255 C320,248 345,230 360,205 C375,180 378,150 365,130 C358,120 350,118 345,125 C340,135 345,150 350,165"
+        fill="none" stroke="#2A2A2A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.15"/>
+  <path d="M295,255 C320,248 345,230 360,205 C375,180 378,150 365,130 C358,120 350,118 345,125 C340,135 345,150 350,165"
+        fill="none" stroke="#E8A830" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fluffy tuft at the tip -->
+  <ellipse cx="352" cy="118" rx="18" ry="22" fill="#C88010" stroke="#2A2A2A" stroke-width="3.5" transform="rotate(-10,352,118)"/>
+  <ellipse cx="345" cy="112" rx="14" ry="18" fill="#E8A830" stroke="#2A2A2A" stroke-width="2.5" transform="rotate(-15,345,112)"/>
+  <ellipse cx="358" cy="110" rx="12" ry="16" fill="#C88010" stroke="#2A2A2A" stroke-width="2.5" transform="rotate(5,358,110)"/>
+  <!-- Tuft highlight -->
+  <ellipse cx="350" cy="115" rx="8" ry="10" fill="#E8A830" stroke="none"/>
+</svg>

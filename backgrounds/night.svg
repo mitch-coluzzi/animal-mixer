@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Night sky background -->
+  <rect width="400" height="500" fill="#1A1A3E"/>
+
+  <!-- Slightly lighter horizon glow -->
+  <rect y="380" width="400" height="120" fill="#1E2050" opacity="0.6"/>
+
+  <!-- Crescent moon -->
+  <g transform="translate(80, 80)">
+    <circle cx="0" cy="0" r="35" fill="#FFE57F" stroke="#222" stroke-width="3.5"/>
+    <circle cx="12" cy="-8" r="28" fill="#1A1A3E"/>
+    <!-- Moon face -->
+    <circle cx="-10" cy="-5" r="2.5" fill="#222"/>
+    <path d="M-15 5 Q-10 10 -5 5" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Stars - 4-pointed star shapes -->
+  <!-- Big star 1 -->
+  <g transform="translate(200, 60)">
+    <polygon points="0,-12 3,-3 12,0 3,3 0,12 -3,3 -12,0 -3,-3" fill="#FFE57F" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Big star 2 -->
+  <g transform="translate(320, 130)">
+    <polygon points="0,-10 2.5,-2.5 10,0 2.5,2.5 0,10 -2.5,2.5 -10,0 -2.5,-2.5" fill="#FFE57F" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Big star 3 -->
+  <g transform="translate(350, 50)">
+    <polygon points="0,-11 3,-3 11,0 3,3 0,11 -3,3 -11,0 -3,-3" fill="#FFF9C4" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Medium star 4 -->
+  <g transform="translate(260, 200)">
+    <polygon points="0,-8 2,-2 8,0 2,2 0,8 -2,2 -8,0 -2,-2" fill="#FFE57F" stroke="#222" stroke-width="1.5"/>
+  </g>
+
+  <!-- Medium star 5 -->
+  <g transform="translate(50, 200)">
+    <polygon points="0,-8 2,-2 8,0 2,2 0,8 -2,2 -8,0 -2,-2" fill="#FFF9C4" stroke="#222" stroke-width="1.5"/>
+  </g>
+
+  <!-- Medium star 6 -->
+  <g transform="translate(150, 160)">
+    <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FFE57F" stroke="#222" stroke-width="1.5"/>
+  </g>
+
+  <!-- Small star dots scattered -->
+  <circle cx="30" cy="40" r="2.5" fill="#FFF9C4"/>
+  <circle cx="130" cy="30" r="2" fill="#FFE57F"/>
+  <circle cx="280" cy="40" r="2" fill="white"/>
+  <circle cx="370" cy="100" r="2.5" fill="#FFF9C4"/>
+  <circle cx="180" cy="110" r="2" fill="white"/>
+  <circle cx="40" cy="130" r="2" fill="#FFE57F"/>
+  <circle cx="330" cy="220" r="2" fill="white"/>
+  <circle cx="100" cy="260" r="2.5" fill="#FFF9C4"/>
+  <circle cx="220" cy="280" r="2" fill="white"/>
+  <circle cx="360" cy="300" r="2" fill="#FFE57F"/>
+  <circle cx="70" cy="320" r="2" fill="white"/>
+  <circle cx="300" cy="340" r="2.5" fill="#FFF9C4"/>
+  <circle cx="170" cy="350" r="2" fill="white"/>
+  <circle cx="50" cy="400" r="2" fill="#FFE57F"/>
+  <circle cx="250" cy="380" r="2" fill="white"/>
+  <circle cx="380" cy="400" r="2.5" fill="#FFF9C4"/>
+
+  <!-- Gentle rolling hills at the bottom -->
+  <path d="M0 450 Q80 430 160 445 Q240 425 320 440 Q370 432 400 438 L400 500 L0 500 Z" fill="#151535" stroke="#222" stroke-width="3"/>
+  <path d="M0 470 Q100 458 200 465 Q300 455 400 462 L400 500 L0 500 Z" fill="#121230" stroke="#222" stroke-width="2.5"/>
+</svg>

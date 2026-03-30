@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Deer Head -->
+  <!-- Antlers -->
+  <path d="M145,100 C140,70 135,40 125,20 C122,14 128,10 132,16 C140,30 145,50 148,70 M135,55 C125,40 115,30 105,28 C100,27 100,33 106,34 C118,38 128,48 135,55Z" fill="none" stroke="#A08050" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M130,65 C118,52 108,48 98,50 C93,51 95,56 100,55 C110,53 120,58 130,65Z" fill="none" stroke="#A08050" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M255,100 C260,70 265,40 275,20 C278,14 272,10 268,16 C260,30 255,50 252,70 M265,55 C275,40 285,30 295,28 C300,27 300,33 294,34 C282,38 272,48 265,55Z" fill="none" stroke="#A08050" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M270,65 C282,52 292,48 302,50 C307,51 305,56 300,55 C290,53 280,58 270,65Z" fill="none" stroke="#A08050" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Ears - tall pointed deer ears -->
+  <path d="M95,140 C85,105 90,80 105,70 C120,65 130,80 135,110 C138,130 130,150 120,160Z" fill="#F0D0A0" stroke="#222" stroke-width="3.5"/>
+  <path d="M105,120 C100,100 105,85 112,80 C120,78 125,90 128,110 C130,125 125,140 118,148Z" fill="#FFE8D0" stroke="none"/>
+  <path d="M305,140 C315,105 310,80 295,70 C280,65 270,80 265,110 C262,130 270,150 280,160Z" fill="#F0D0A0" stroke="#222" stroke-width="3.5"/>
+  <path d="M295,120 C300,100 295,85 288,80 C280,78 275,90 272,110 C270,125 275,140 282,148Z" fill="#FFE8D0" stroke="none"/>
+
+  <!-- Head shape - elegant oval, slightly tapered -->
+  <path d="M100,190 C98,140 130,95 200,92 C270,95 302,140 300,190 C302,260 295,320 280,365 C265,395 240,418 200,420 C160,418 135,395 120,365 C105,320 98,260 100,190Z" fill="#F0D0A0" stroke="#222" stroke-width="3.5"/>
+
+  <!-- Lighter face patch -->
+  <path d="M145,250 C145,220 165,200 200,198 C235,200 255,220 255,250 C255,300 245,350 230,380 C220,395 210,400 200,400 C190,400 180,395 170,380 C155,350 145,300 145,250Z" fill="#FFF0E0" stroke="none"/>
+
+  <!-- Eyes - big doe eyes, very cute -->
+  <ellipse cx="155" cy="215" rx="28" ry="32" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="155" cy="220" rx="17" ry="20" fill="#4A2810"/>
+  <ellipse cx="149" cy="212" rx="7" ry="8" fill="#FFFFFF"/>
+  <ellipse cx="245" cy="215" rx="28" ry="32" fill="#FFFFFF" stroke="#222" stroke-width="3"/>
+  <ellipse cx="245" cy="220" rx="17" ry="20" fill="#4A2810"/>
+  <ellipse cx="239" cy="212" rx="7" ry="8" fill="#FFFFFF"/>
+
+  <!-- Eyelashes -->
+  <path d="M130,202 C133,195 138,192 142,190" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M135,195 C138,190 142,188 146,188" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M270,202 C267,195 262,192 258,190" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <path d="M265,195 C262,190 258,188 254,188" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Nose - small dark oval -->
+  <ellipse cx="200" cy="305" rx="18" ry="14" fill="#4A3020" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="196" cy="302" rx="5" ry="4" fill="#6A5040" opacity="0.5"/>
+
+  <!-- Mouth -->
+  <path d="M182,328 C190,340 195,344 200,344 C205,344 210,340 218,328" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="318" x2="200" y2="330" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cheek blush -->
+  <ellipse cx="128" cy="250" rx="15" ry="10" fill="#F0B0A0" opacity="0.4"/>
+  <ellipse cx="272" cy="250" rx="15" ry="10" fill="#F0B0A0" opacity="0.4"/>
+
+  <!-- Spots on forehead -->
+  <circle cx="175" cy="155" r="6" fill="#C8A870" opacity="0.5"/>
+  <circle cx="225" cy="155" r="6" fill="#C8A870" opacity="0.5"/>
+  <circle cx="200" cy="142" r="5" fill="#C8A870" opacity="0.4"/>
+
+  <!-- Neck -->
+  <path d="M155,408 C165,418 182,424 200,425 C218,424 235,418 245,408 L250,420 C238,428 220,432 200,432 C180,432 162,428 150,420Z" fill="#F0D0A0" stroke="#222" stroke-width="3"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Fish Tail: classic fish fin/tail shape -->
+  <!-- Tail connector (narrow part where tail meets body) -->
+  <path d="M290,250 C310,248 330,245 345,240"
+        fill="none" stroke="#4169E1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M290,250 C310,248 330,245 345,240"
+        fill="none" stroke="#2A2A2A" stroke-width="15" stroke-linecap="round" opacity="0.12"/>
+  <path d="M290,250 C310,248 330,245 345,240"
+        fill="none" stroke="#4169E1" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Upper fin lobe -->
+  <path d="M340,240 C355,225 375,195 385,170 C390,155 388,145 378,148 C365,152 348,175 340,200 C335,215 336,230 340,240Z"
+        fill="#4169E1" stroke="#2A2A2A" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Lower fin lobe -->
+  <path d="M340,240 C355,255 375,285 385,310 C390,325 388,335 378,332 C365,328 348,305 340,280 C335,265 336,250 340,240Z"
+        fill="#4169E1" stroke="#2A2A2A" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Fin ray lines - upper -->
+  <path d="M345,230 L375,170" fill="none" stroke="#87CEEB" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M343,225 L368,180" fill="none" stroke="#87CEEB" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M342,235 L380,190" fill="none" stroke="#87CEEB" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Fin ray lines - lower -->
+  <path d="M345,250 L375,310" fill="none" stroke="#87CEEB" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M343,255 L368,300" fill="none" stroke="#87CEEB" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M342,245 L380,290" fill="none" stroke="#87CEEB" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Center highlight -->
+  <ellipse cx="345" cy="240" rx="8" ry="12" fill="#87CEEB" stroke="none" opacity="0.5"/>
+</svg>
